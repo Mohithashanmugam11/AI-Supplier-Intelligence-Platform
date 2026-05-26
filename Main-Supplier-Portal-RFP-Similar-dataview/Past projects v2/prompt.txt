@@ -1,0 +1,11 @@
+EXTRACTION_PROMPT = """Extract past-project manufacturing facts from one part image plus optional document text.
+Return one JSON object only. Prefer text for named specs; image for geometry/features. Do not invent: use ""/null and lower confidence when uncertain.
+
+Classify fast:
+- part_family: TURNED=axisymmetric/lathe; MILLED=prismatic/pockets/flat machined; SHEET_METAL=cut/bent plate; MULTI_COMPONENT=assembly; cast/forged/stamped only with clear near-net clues.
+- complexity: SIMPLE=single basic form; MODERATE=few features/one setup; COMPLEX=threads,pockets,datum stackups,multi-setup; HIGHLY_COMPLEX=5-axis/freeform/critical fits.
+- tolerance: STANDARD=general commercial; PRECISION=tight fits/threads/bearing seats/inspection cues; HIGH_PRECISION=ground,optical,aero/medical critical fits.
+- material/finish only if visible or stated. reasoning <=10 words. features max 8 concrete visible items.
+
+JSON schema:
+{"part_family":{"value":"TURNED|MILLED|SHEET_METAL|CAST|INJECTION_MOULDED|WELDED|FORGED|STAMPED|MULTI_COMPONENT|OTHER","detail":""},"material":{"value":"","reasoning":""},"process":{"primary":"","secondary":null},"finish":{"value":"","ra_estimate":null},"complexity_class":{"value":"SIMPLE|MODERATE|COMPLEX|HIGHLY_COMPLEX","reasoning":""},"tolerance_class":{"value":"STANDARD|PRECISION|HIGH_PRECISION","reasoning":""},"features":[],"overall_confidence":0.0}"""

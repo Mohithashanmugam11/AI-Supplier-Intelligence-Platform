@@ -1,0 +1,8 @@
+# Never commit these
+.env
+uploads_temp/
+models/
+__pycache__/
+*.pyc
+*.pt
+.claudeignore

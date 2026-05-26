@@ -1,0 +1,22 @@
+@'
+.git
+.gitignore
+.env
+.env.*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+**/node_modules/
+unified/frontend/dist/
+uploads_temp/
+stored_parts/
+parts/
+tmp/
+temp/
+*.log
+'@ | Set-Content .dockerignore

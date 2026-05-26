@@ -1,0 +1,5492 @@
+ldpe:
+  aliases:
+  - ldpe
+  materials:
+  - brand_name: White Label Low Density Polyethylene (LDPE)
+    brand_type: generic
+    class: Polyethylene
+    family: Thermoplastics
+    type: Polymer
+low carbon steel:
+  aliases:
+  - low carbon steel
+  materials:
+  - brand_name: EOS Low Carbon HR Steel
+    brand_type: manufacturer
+    class: Carbon Steel
+    family: Steels
+    type: Metal
+  - brand_name: White Label Mild Steel
+    brand_type: generic
+    class: Mild Steel
+    family: Carbon Steels
+    type: Metals
+liquid silicone rubber (lsr):
+  aliases:
+  - liquid silicone rubber (lsr)
+  materials:
+  - brand_name: EOS Liquid Silicone Rubber (LSR) Molded/Cast)
+    brand_type: manufacturer
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomer
+  - brand_name: White Label LSR
+    brand_type: generic
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomer
+liquid crystal polymer (lcp):
+  aliases:
+  - liquid crystal polymer (lcp)
+  materials:
+  - brand_name: White Label Liquid Crystal Polymer (LCP)
+    brand_type: generic
+    class: LCP
+    family: High-Performance Thermoplastics
+    type: Polymer
+titanium grade 5 (ti-6al-4v):
+  aliases:
+  - titanium grade 5 (ti-6al-4v)
+  materials:
+  - brand_name: 3D Systems LaserForm Ti Gr5 (A)
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metal
+titanium grade 23 (eli):
+  aliases:
+  - titanium grade 23 (eli)
+  materials:
+  - brand_name: 3D Systems LaserForm Ti Gr23 (A)
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metal
+titanium grade 1:
+  aliases:
+  - titanium grade 1
+  materials:
+  - brand_name: 3D Systems LaserForm Ti Gr1 (A)
+    brand_type: manufacturer
+    class: Titanium
+    family: Commercially Pure Titanium
+    type: Metal
+  - brand_name: AP&C Titanium TiCP -Grade 1 - UNS R50250
+    brand_type: manufacturer
+    class: Commercially Pure Titanium
+    family: Titanium
+    type: Metals
+stainless steel 316l:
+  aliases:
+  - stainless steel 316l
+  materials:
+  - brand_name: 3D Systems LaserForm Stainless 316L (A)
+    brand_type: manufacturer
+    class: Austenitic Stainless Steel
+    family: Stainless Steels
+    type: Metal
+  - brand_name: EOS Stainless Steel 316L
+    brand_type: manufacturer
+    class: Stainless Steel
+    family: Ferrous Metals
+    type: Metals
+  - brand_name: GE Additive 316L
+    brand_type: manufacturer
+    class: Austenitic Stainless Steel
+    family: Stainless Steels
+    type: Metals
+  - brand_name: Chengdu Huarui Stainless Steel 316L
+    brand_type: manufacturer
+    class: Austenitic Stainless Steel
+    family: Stainless Steels
+    type: Metals
+  - brand_name: SLM Solutions Stainless Steel 316L - EN 1.4404
+    brand_type: manufacturer
+    class: Austenitic Stainless Steel
+    family: Stainless Steels
+    type: Metals
+inconel 718:
+  aliases:
+  - inconel 718
+  materials:
+  - brand_name: 3D Systems LaserForm Ni718 (A)
+    brand_type: manufacturer
+    class: Nickel Superalloy
+    family: Superalloys
+    type: Metal
+  - brand_name: White Label Inconel 718
+    brand_type: generic
+    class: Nickel Superalloy
+    family: Superalloys
+    type: Metal
+  - brand_name: Concept Laser CL 100NB
+    brand_type: manufacturer
+    class: Nickel Alloy
+    family: Nickel Alloys
+    type: Metals
+  - brand_name: HAYNESÂ®718 alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+  - brand_name: SLM Solutions IN 718 (Nickel Alloy)
+    brand_type: manufacturer
+    class: Nickel Alloy
+    family: Nickel Alloys
+    type: Metals
+  - brand_name: EOS Nickel Alloy IN718
+    brand_type: manufacturer
+    class: Nickel Superalloy
+    family: Nickel Alloy
+    type: Metal
+  - brand_name: Arcam AB Inconel 718
+    brand_type: manufacturer
+    class: Nickel Superalloy
+    family: Nickel Alloy
+    type: Metal
+inconel 625:
+  aliases:
+  - inconel 625
+  materials:
+  - brand_name: 3D Systems LaserForm Ni625 (A)
+    brand_type: manufacturer
+    class: Nickel Superalloy
+    family: Superalloys
+    type: Metal
+  - brand_name: White Label Inconel 625
+    brand_type: generic
+    class: Nickel Superalloy
+    family: Superalloys
+    type: Metal
+  - brand_name: Concept Laser CL 101NB
+    brand_type: manufacturer
+    class: Nickel Alloy
+    family: Nickel Alloys
+    type: Metals
+  - brand_name: Markforged Ni-Alloy 625 - UNS N06625
+    brand_type: manufacturer
+    class: Nickel Alloy
+    family: Nickel Alloys
+    type: Metals
+  - brand_name: SLM Solutions IN 625 (Nickel Alloy)
+    brand_type: manufacturer
+    class: Nickel Alloy
+    family: Nickel Alloys
+    type: Metals
+  - brand_name: EOS Nickel Alloy IN625
+    brand_type: manufacturer
+    class: Nickel Superalloy
+    family: Nickel Alloy
+    type: Metal
+maraging steel:
+  aliases:
+  - maraging steel
+  materials:
+  - brand_name: 3D Systems LaserForm Maraging Steel (B)
+    brand_type: manufacturer
+    class: Maraging Steel
+    family: Tool & Specialty Steels
+    type: Metal
+  - brand_name: White Label Maraging Steel
+    brand_type: generic
+    class: Maraging Steel
+    family: Tool Steels
+    type: Metals
+aluminum alloy alsi12:
+  aliases:
+  - aluminum alloy alsi12
+  materials:
+  - brand_name: 3D Systems LaserForm AlSi12 (B)
+    brand_type: manufacturer
+    class: Aluminum-Silicon Alloy
+    family: Aluminum Alloys
+    type: Metal
+stainless steel 17-4ph:
+  aliases:
+  - stainless steel 17-4ph
+  materials:
+  - brand_name: 3D Systems LaserForm 17-4PH (B)
+    brand_type: manufacturer
+    class: Precipitation Hardening SS
+    family: Stainless Steels
+    type: Metal
+  - brand_name: 3D Systems LaserForm 17-4PH (A)
+    brand_type: manufacturer
+    class: Precipitation Hardening SS
+    family: Stainless Steels
+    type: Metal
+  - brand_name: Markforged 17-4 PH Stainless Steel
+    brand_type: manufacturer
+    class: Precipitation Hardening Stainless Steel
+    family: Stainless Steels
+    type: Metals
+  - brand_name: Chengdu Huarui Stainless Steel 17-4 (Powder)
+    brand_type: manufacturer
+    class: Precipitation Hardening Stainless Steel
+    family: Stainless Steels
+    type: Metals
+  - brand_name: SLM Solutions Stainless Steel - 17-4PH - UNS S17400
+    brand_type: manufacturer
+    class: Precipitation Hardening Stainless Steel
+    family: Stainless Steels
+    type: Metals
+  - brand_name: White Label Stainless Steel 17-4 (Powder)
+    brand_type: generic
+    class: Precipitation Hardening Stainless Steel
+    family: Stainless Steels
+    type: Metals
+  - brand_name: SLM Solutions Stainless Steel 17-4PH (Steel Alloy)
+    brand_type: manufacturer
+    class: Precipitation Hardening Stainless Steel
+    family: Stainless Steels
+    type: Metals
+  - brand_name: EOS Stainless Steel 17-4PH
+    brand_type: manufacturer
+    class: Precipitation Hardening Stainless Steel
+    family: Stainless Steel
+    type: Metal
+abs-like photopolymer resin:
+  aliases:
+  - abs-like photopolymer resin
+  materials:
+  - brand_name: EnvisionTEC LS600
+    brand_type: manufacturer
+    class: ABS-like Resin
+    family: Photopolymer Resins
+    type: Resin
+  - brand_name: EnvisionTEC R5 Gray
+    brand_type: manufacturer
+    class: ABS-like Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC R5
+    brand_type: manufacturer
+    class: ABS-like Resin
+    family: Thermoset Polymers
+    type: Polymers
+acrylic-pvc alloy (kydex):
+  aliases:
+  - acrylic-pvc alloy (kydex)
+  materials:
+  - brand_name: White Label Kydex
+    brand_type: generic
+    class: Acrylic Alloy
+    family: Thermoplastics
+    type: Polymer
+kovar alloy astm f15:
+  aliases:
+  - kovar alloy astm f15
+  materials:
+  - brand_name: White Label Kovar ASTM F15
+    brand_type: generic
+    class: Iron-Nickel-Cobalt Alloy
+    family: Specialty Alloys
+    type: Metal
+fecral alloy:
+  aliases:
+  - fecral alloy
+  materials:
+  - brand_name: White Label Iron-Chrome-Aluminum
+    brand_type: generic
+    class: Iron-Based Alloy
+    family: Specialty Alloys
+    type: Metal
+iron-bronze composite:
+  aliases:
+  - iron-bronze composite
+  materials:
+  - brand_name: ExOne Iron / Bronze Matrix
+    brand_type: manufacturer
+    class: Metal Matrix Composite
+    family: Composites
+    type: Composite
+iron:
+  aliases:
+  - iron
+  materials:
+  - brand_name: White Label Iron
+    brand_type: generic
+    class: Ferrous Metal
+    family: Ferrous Metals
+    type: Metal
+invar 36:
+  aliases:
+  - invar 36
+  materials:
+  - brand_name: White Label Invar 36
+    brand_type: generic
+    class: Iron-Nickel Alloy
+    family: Low Expansion Alloys
+    type: Metal
+  - brand_name: Carpenter CarTech Invar 36
+    brand_type: manufacturer
+    class: Fe-Ni Alloy
+    family: Specialty Alloys
+    type: Metals
+  - brand_name: SLM Solutions Invar 36 (Iron Alloy)
+    brand_type: manufacturer
+    class: Iron-Nickel Alloy
+    family: Iron Alloys
+    type: Metals
+invar alloy:
+  aliases:
+  - invar alloy
+  materials:
+  - brand_name: White Label Invar
+    brand_type: generic
+    class: Iron-Nickel Alloy
+    family: Low Expansion Alloys
+    type: Metal
+hydroxyapatite (hap):
+  aliases:
+  - hydroxyapatite (hap)
+  materials:
+  - brand_name: White Label Hydroxyapatite (HAP)
+    brand_type: generic
+    class: Bioceramic
+    family: Ceramics
+    type: Ceramic
+high-temperature photopolymer resin:
+  aliases:
+  - high-temperature photopolymer resin
+  materials:
+  - brand_name: White Label High Temp Resin
+    brand_type: generic
+    class: High-Temp Resin
+    family: Photopolymer Resins
+    type: Resin
+  - brand_name: EnvisionTEC HTM140
+    brand_type: manufacturer
+    class: High-Temp Resin
+    family: Photopolymer Resins
+    type: Resin
+  - brand_name: Spot A Materials SpotHT
+    brand_type: manufacturer
+    class: High Temp Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC RC90
+    brand_type: manufacturer
+    class: High Temp Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC Perfactory HTM140
+    brand_type: manufacturer
+    class: High Temp Resin
+    family: Thermoset Polymers
+    type: Polymers
+hips:
+  aliases:
+  - hips
+  materials:
+  - brand_name: White Label High Impact Polystyrene (HIPS)
+    brand_type: generic
+    class: Polystyrene
+    family: Thermoplastics
+    type: Polymer
+  - brand_name: Fillamentum HIPS Extrafill
+    brand_type: manufacturer
+    class: Polystyrene
+    family: Thermoplastic
+    type: Polymer
+hdpe:
+  aliases:
+  - hdpe
+  materials:
+  - brand_name: White Label High Density Polyethylene (HDPE)
+    brand_type: generic
+    class: Polyethylene
+    family: Thermoplastics
+    type: Polymer
+high consistency rubber (hcr):
+  aliases:
+  - high consistency rubber (hcr)
+  materials:
+  - brand_name: White Label High Consistency Rubber
+    brand_type: generic
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomer
+haynes 230:
+  aliases:
+  - haynes 230
+  materials:
+  - brand_name: Haynes International Haynes 230
+    brand_type: manufacturer
+    class: Nickel Superalloy
+    family: Superalloys
+    type: Metal
+haynes 188:
+  aliases:
+  - haynes 188
+  materials:
+  - brand_name: Haynes International Haynes 188
+    brand_type: manufacturer
+    class: Cobalt-Nickel Superalloy
+    family: Superalloys
+    type: Metal
+  - brand_name: HAYNESÂ®188 alloy
+    brand_type: manufacturer
+    class: Cobalt-Based Superalloy
+    family: Cobalt Alloys
+    type: Metals
+haynes alloy:
+  aliases:
+  - haynes alloy
+  materials:
+  - brand_name: Haynes International Haynes
+    brand_type: manufacturer
+    class: Nickel Superalloy
+    family: Superalloys
+    type: Metal
+hastelloy c-276:
+  aliases:
+  - hastelloy c-276
+  materials:
+  - brand_name: Haynes International Hastelloy C-276
+    brand_type: manufacturer
+    class: Nickel-Molybdenum Alloy
+    family: Superalloys
+    type: Metal
+  - brand_name: HASTELLOYÂ®C-276 alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+hastelloy x:
+  aliases:
+  - hastelloy x
+  materials:
+  - brand_name: Haynes International Hastelloy-X
+    brand_type: manufacturer
+    class: Nickel Superalloy
+    family: Superalloys
+    type: Metal
+  - brand_name: EOS Nickel Alloy HX
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+  - brand_name: HASTELLOYÂ®X alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+  - brand_name: SLM Solutions HX (Nickel alloy)
+    brand_type: manufacturer
+    class: Nickel Alloy
+    family: Nickel Alloys
+    type: Metals
+hastelloy alloy:
+  aliases:
+  - hastelloy alloy
+  materials:
+  - brand_name: Haynes International Hastelloy
+    brand_type: manufacturer
+    class: Nickel Superalloy
+    family: Superalloys
+    type: Metal
+tool steel ht-23:
+  aliases:
+  - tool steel ht-23
+  materials:
+  - brand_name: White Label HT-23
+    brand_type: generic
+    class: Tool Steel
+    family: Tool Steels
+    type: Metal
+polyamide 11 (pa11):
+  aliases:
+  - polyamide 11 (pa11)
+  materials:
+  - brand_name: ALM HP 11-30
+    brand_type: manufacturer
+    class: Nylon (Polyamide)
+    family: Engineering Thermoplastics
+    type: Polymer
+h13 tool steel:
+  aliases:
+  - h13 tool steel
+  materials:
+  - brand_name: Desktop Metal H13 Steel
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Tool Steels
+    type: Metal
+gold:
+  aliases:
+  - gold
+  materials:
+  - brand_name: White Label Gold
+    brand_type: generic
+    class: Precious Metal
+    family: Precious Metals
+    type: Metal
+glass-filled nylon:
+  aliases:
+  - glass-filled nylon
+  materials:
+  - brand_name: White Label Glass-Filled Nylon
+    brand_type: generic
+    class: Reinforced Nylon
+    family: Engineering Thermoplastics
+    type: Polymer
+support photopolymer resin:
+  aliases:
+  - support photopolymer resin
+  materials:
+  - brand_name: Stratasys FullCure SUP705
+    brand_type: manufacturer
+    class: Support Resin
+    family: Photopolymer Resins
+    type: Resin
+gypsum-based composite:
+  aliases:
+  - gypsum-based composite
+  materials:
+  - brand_name: Stratasys Full Color Sandstone
+    brand_type: manufacturer
+    class: Mineral Composite
+    family: Composites
+    type: Composite
+rigid photopolymer resin:
+  aliases:
+  - rigid photopolymer resin
+  materials:
+  - brand_name: Stratasys FullCure RGD655 RoseClear
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Photopolymer Resins
+    type: Resin
+  - brand_name: Stratasys Rigur (RGD450)
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Stratasys RGD525
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Stratasys RGD 535
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Stratasys RGD 525
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC RGD 515
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC RC70
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC RC31
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+standard photopolymer resin:
+  aliases:
+  - standard photopolymer resin
+  materials:
+  - brand_name: Formlabs White
+    brand_type: manufacturer
+    class: Standard Resin
+    family: Photopolymer Resins
+    type: Resin
+  - brand_name: Formlabs Resin 1L
+    brand_type: manufacturer
+    class: General Purpose Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Formlabs Standard Grey FLGPGR04 Resin
+    brand_type: manufacturer
+    class: Standard Resin
+    family: Photopolymer Resins
+    type: Polymers
+tough photopolymer resin:
+  aliases:
+  - tough photopolymer resin
+  materials:
+  - brand_name: Formlabs Tough
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Photopolymer Resins
+    type: Resin
+  - brand_name: Carbon EvoLVe 128
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC Epic
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: DSM SOMOS Protogen 18420
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC R11
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC PT5760
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Thermoset Polymers
+    type: Polymers
+flexible photopolymer resin:
+  aliases:
+  - flexible photopolymer resin
+  materials:
+  - brand_name: Formlabs Flexible
+    brand_type: manufacturer
+    class: Flexible Resin
+    family: Photopolymer Resins
+    type: Resin
+  - brand_name: Formlabs Flexsolid
+    brand_type: manufacturer
+    class: Flexible Resin
+    family: Thermoset Polymers
+    type: Polymers
+dental biocompatible resin:
+  aliases:
+  - dental biocompatible resin
+  materials:
+  - brand_name: Formlabs Dental SG
+    brand_type: manufacturer
+    class: Medical Resin
+    family: Photopolymer Resins
+    type: Resin
+clear photopolymer resin:
+  aliases:
+  - clear photopolymer resin
+  materials:
+  - brand_name: Formlabs Clear
+    brand_type: manufacturer
+    class: Transparent Resin
+    family: Photopolymer Resins
+    type: Resin
+  - brand_name: EnvisionTEC E-Glass 3SP
+    brand_type: manufacturer
+    class: Transparent Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Clear 3SP
+    brand_type: manufacturer
+    class: Transparent Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC Clear Guide
+    brand_type: manufacturer
+    class: Transparent Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Stratasys RGD630 Clear
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Stratasys VeroClear RGD810
+    brand_type: manufacturer
+    class: Transparent Resin
+    family: Photopolymer Resins
+    type: Polymers
+castable photopolymer resin:
+  aliases:
+  - castable photopolymer resin
+  materials:
+  - brand_name: Formlabs Castable
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Shell 600
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Shell 500 Series
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Shell 450 Series
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Shell 450 Clear
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Shell 3000 Series
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Shell 300 Series
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Shell 200 Series
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC PrimeCast 101
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC Press-E-Cast
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC Press E-Cast
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+elastomeric photopolymer resin:
+  aliases:
+  - elastomeric photopolymer resin
+  materials:
+  - brand_name: Formlabs Elastic Resin
+    brand_type: manufacturer
+    class: Elastomeric Resin
+    family: Elastomeric Polymers
+    type: Elastomers
+elastomeric foam photopolymer:
+  aliases:
+  - elastomeric foam photopolymer
+  materials:
+  - brand_name: Formlabs Flexible Foam
+    brand_type: manufacturer
+    class: Foam Elastomer Resin
+    family: Elastomeric Polymers
+    type: Elastomers
+tpu 98a:
+  aliases:
+  - tpu 98a
+  materials:
+  - brand_name: Formlabs Flexfill 98A (TPU)
+    brand_type: manufacturer
+    class: TPU
+    family: TPE
+    type: Elastomers
+  - brand_name: Fillamentum Flexfill TPU 98A
+    brand_type: manufacturer
+    class: Thermoplastic Polyurethane
+    family: Elastomer
+    type: Polymer
+fr photopolymer resin:
+  aliases:
+  - fr photopolymer resin
+  materials:
+  - brand_name: Formlabs Flame Retardant Resin
+    brand_type: manufacturer
+    class: Flame Retardant Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Stratasys FR-106
+    brand_type: manufacturer
+    class: Flame Retardant Resin
+    family: Thermoset Polymers
+    type: Polymers
+flexible polyurethane resin:
+  aliases:
+  - flexible polyurethane resin
+  materials:
+  - brand_name: Carbon FPU Flexible Polyurethane
+    brand_type: manufacturer
+    class: Flexible Polyurethane
+    family: Polyurethane
+    type: Elastomers
+engineering photopolymer resin:
+  aliases:
+  - engineering photopolymer resin
+  materials:
+  - brand_name: Carbon NULL
+    brand_type: manufacturer
+    class: Engineering Resin
+    family: Thermoset Polymers
+    type: Polymers
+ss420 / bronze infiltrated:
+  aliases:
+  - ss420 / bronze infiltrated
+  materials:
+  - brand_name: ExOne 420 (Stainless Steel 420 and Bronze matrix)
+    brand_type: manufacturer
+    class: Metal Matrix Composite
+    family: Stainless Steel
+    type: Metals
+ss316 / bronze infiltrated:
+  aliases:
+  - ss316 / bronze infiltrated
+  materials:
+  - brand_name: ExOne316 (Stainless Steel 316 and Bronze matrix)
+    brand_type: manufacturer
+    class: Metal Matrix Composite
+    family: Stainless Steel
+    type: Metals
+epoxy photopolymer resin:
+  aliases:
+  - epoxy photopolymer resin
+  materials:
+  - brand_name: DSM Epoxy
+    brand_type: manufacturer
+    class: Epoxy Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Carbon EPX Epoxy
+    brand_type: manufacturer
+    class: Epoxy Resin
+    family: Thermoset Polymers
+    type: Polymers
+model photopolymer resin:
+  aliases:
+  - model photopolymer resin
+  materials:
+  - brand_name: EnvisionTEC Pro Gray
+    brand_type: manufacturer
+    class: Model Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label Element
+    brand_type: generic
+    class: Model Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Model 3SP
+    brand_type: manufacturer
+    class: Model Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Model
+    brand_type: manufacturer
+    class: Model Resin
+    family: Thermoset Polymers
+    type: Polymers
+elastomeric polyurethane resin:
+  aliases:
+  - elastomeric polyurethane resin
+  materials:
+  - brand_name: EnvisionTEC EPU Elastomeric Polyurethane
+    brand_type: manufacturer
+    class: Elastomeric PU
+    family: Polyurethane
+    type: Elastomers
+high-temperature photopolymer:
+  aliases:
+  - high-temperature photopolymer
+  materials:
+  - brand_name: EnvisionTEC EC500
+    brand_type: manufacturer
+    class: High-Temp Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC EC3000
+    brand_type: manufacturer
+    class: High-Temp Resin
+    family: Thermoset Polymers
+    type: Polymers
+tooling photopolymer resin:
+  aliases:
+  - tooling photopolymer resin
+  materials:
+  - brand_name: EnvisionTEC E-Tool 3SP
+    brand_type: manufacturer
+    class: Tooling Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Tool
+    brand_type: manufacturer
+    class: Tooling Resin
+    family: Thermoset Polymers
+    type: Polymers
+silicone elastomer resin:
+  aliases:
+  - silicone elastomer resin
+  materials:
+  - brand_name: EnvisionTEC E-Silicone
+    brand_type: manufacturer
+    class: Silicone Resin
+    family: Silicone
+    type: Elastomers
+dental base photopolymer:
+  aliases:
+  - dental base photopolymer
+  materials:
+  - brand_name: White Label E-Partial
+    brand_type: generic
+    class: Dental Resin
+    family: Thermoset Polymers
+    type: Polymers
+dental bonding photopolymer:
+  aliases:
+  - dental bonding photopolymer
+  materials:
+  - brand_name: EnvisionTEC E-IDB
+    brand_type: manufacturer
+    class: Dental Resin
+    family: Thermoset Polymers
+    type: Polymers
+gingiva elastomer resin:
+  aliases:
+  - gingiva elastomer resin
+  materials:
+  - brand_name: EnvisionTEC E-Gum
+    brand_type: manufacturer
+    class: Gingiva Resin
+    family: Elastomeric Polymers
+    type: Elastomers
+dental guard photopolymer:
+  aliases:
+  - dental guard photopolymer
+  materials:
+  - brand_name: EnvisionTEC E-Guard
+    brand_type: manufacturer
+    class: Dental Resin
+    family: Thermoset Polymers
+    type: Polymers
+dental model photopolymer:
+  aliases:
+  - dental model photopolymer
+  materials:
+  - brand_name: EnvisionTEC E-Dent 100
+    brand_type: manufacturer
+    class: Dental Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Dent
+    brand_type: manufacturer
+    class: Dental Resin
+    family: Thermoset Polymers
+    type: Polymers
+dental stone resin:
+  aliases:
+  - dental stone resin
+  materials:
+  - brand_name: EnvisionTEC E-Denstone Tough
+    brand_type: manufacturer
+    class: Dental Stone Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Denstone 3SP Peach
+    brand_type: manufacturer
+    class: Dental Stone Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC E-Denstone
+    brand_type: manufacturer
+    class: Dental Stone Resin
+    family: Thermoset Polymers
+    type: Polymers
+dental appliance photopolymer:
+  aliases:
+  - dental appliance photopolymer
+  materials:
+  - brand_name: EnvisionTEC E-Appliance
+    brand_type: manufacturer
+    class: Dental Appliance Resin
+    family: Thermoset Polymers
+    type: Polymers
+abs-like photopolymer:
+  aliases:
+  - abs-like photopolymer
+  materials:
+  - brand_name: Stratasys Durus White (RGD430)
+    brand_type: manufacturer
+    class: ABS-like Polymer
+    family: Thermoplastics
+    type: Polymers
+  - brand_name: Stratasys Digital ABS
+    brand_type: manufacturer
+    class: ABS-like Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: 3D Systems Accura Xtreme White 200
+    brand_type: manufacturer
+    class: ABS-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Accura SL Y-C 9300
+    brand_type: manufacturer
+    class: ABS-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Accura ABS White (SL 7810)
+    brand_type: manufacturer
+    class: ABS-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Accura ABS Black (SL 7820)
+    brand_type: manufacturer
+    class: ABS-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Accura 60
+    brand_type: manufacturer
+    class: ABS-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Accura 55
+    brand_type: manufacturer
+    class: ABS-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: White Label ABS-Like Resin
+    brand_type: generic
+    class: ABS-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: EnvisionTEC ABS Tough
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: EnvisionTEC ABS TRU 3SP
+    brand_type: manufacturer
+    class: ABS-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: EnvisionTEC ABS Hi-Impact 3SP
+    brand_type: manufacturer
+    class: Impact-Resistant Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: EnvisionTEC ABS 3SP
+    brand_type: manufacturer
+    class: ABS-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: EnvisionTEC ABS 3SP Tough
+    brand_type: manufacturer
+    class: ABS-Like Resin
+    family: Thermoset Polymers
+    type: Polymers
+pa12:
+  aliases:
+  - pa12
+  materials:
+  - brand_name: 3D Systems Duraform ProX
+    brand_type: manufacturer
+    class: Nylon
+    family: Thermoplastics
+    type: Polymers
+  - brand_name: 3D Systems Duraform EX Natural
+    brand_type: manufacturer
+    class: Nylon
+    family: Thermoplastics
+    type: Polymers
+  - brand_name: 3D Systems Duraform EX Black
+    brand_type: manufacturer
+    class: Nylon
+    family: Thermoplastics
+    type: Polymers
+  - brand_name: 3D Systems Duraform PA Plastic
+    brand_type: manufacturer
+    class: Nylon
+    family: Thermoplastic
+    type: Polymer
+pa12 gf:
+  aliases:
+  - pa12 gf
+  materials:
+  - brand_name: 3D Systems Duraform Nylon GF
+    brand_type: manufacturer
+    class: Glass-Filled Nylon
+    family: Thermoplastics
+    type: Polymers
+  - brand_name: 3D Systems Duraform GF Plastic
+    brand_type: manufacturer
+    class: Glass-Filled Nylon
+    family: Thermoplastics
+    type: Polymers
+pa12 high-temp:
+  aliases:
+  - pa12 high-temp
+  materials:
+  - brand_name: 3D Systems Duraform HST Composite
+    brand_type: manufacturer
+    class: High-Temp Nylon
+    family: Thermoplastics
+    type: Polymers
+  - brand_name: 3D Systems DuraForm ProX HST Composite
+    brand_type: manufacturer
+    class: High-Temp Nylon
+    family: Thermoplastics
+    type: Polymers
+tpe elastomer:
+  aliases:
+  - tpe elastomer
+  materials:
+  - brand_name: 3D Systems Duraform Flex Plastic
+    brand_type: manufacturer
+    class: Flexible TPE
+    family: TPE
+    type: Elastomers
+fr nylon:
+  aliases:
+  - fr nylon
+  materials:
+  - brand_name: 3D Systems Duraform FR 100
+    brand_type: manufacturer
+    class: Flame Retardant Nylon
+    family: Thermoplastics
+    type: Polymers
+tpu:
+  aliases:
+  - tpu
+  materials:
+  - brand_name: 3D Systems DuraForm TPU Elastomer
+    brand_type: manufacturer
+    class: TPU
+    family: TPE
+    type: Elastomers
+  - brand_name: White Label Thermoplastic Polyurethane Elastomer (TPU)
+    brand_type: generic
+    class: Thermoplastic Elastomer
+    family: Elastomers
+    type: Polymer
+  - brand_name: White Label TPU
+    brand_type: generic
+    class: Thermoplastic Elastomer
+    family: Elastomers
+    type: Polymer
+  - brand_name: NinjaTek NinjaFlex
+    brand_type: manufacturer
+    class: Thermoplastic Polyurethane
+    family: Elastomer
+    type: Polymer
+pa66:
+  aliases:
+  - pa66
+  materials:
+  - brand_name: DuPont Zytel 330 NC010
+    brand_type: manufacturer
+    class: Nylon
+    family: Thermoplastics
+    type: Polymers
+pbt+asa gf20:
+  aliases:
+  - pbt+asa gf20
+  materials:
+  - brand_name: DuPont Crastin LW9020 BK580 (PBT+ASA GF20)
+    brand_type: manufacturer
+    class: Glass-Filled Polyester Blend
+    family: Thermoplastics
+    type: Polymers
+pom-h:
+  aliases:
+  - pom-h
+  materials:
+  - brand_name: DuPont Delrin Acetal Homopolymer
+    brand_type: manufacturer
+    class: Acetal (POM)
+    family: Thermoplastics
+    type: Polymers
+elastomeric polyurethane:
+  aliases:
+  - elastomeric polyurethane
+  materials:
+  - brand_name: White Label DPU 40
+    brand_type: generic
+    class: Polyurethane Elastomer
+    family: Polyurethane
+    type: Elastomers
+durable photopolymer resin:
+  aliases:
+  - durable photopolymer resin
+  materials:
+  - brand_name: Carbon DPR 10
+    brand_type: manufacturer
+    class: Durable Resin
+    family: Thermoset Polymers
+    type: Polymers
+photopolymer resin:
+  aliases:
+  - photopolymer resin
+  materials:
+  - brand_name: DSM DM20
+    brand_type: manufacturer
+    class: Engineering Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: B9 Creations B9R-1 Red
+    brand_type: manufacturer
+    class: Model Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: B9 Creations B9R-1 Cherry
+    brand_type: manufacturer
+    class: Model Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: B9 Creations B9R-1 Black
+    brand_type: manufacturer
+    class: Model Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label PT8925
+    brand_type: generic
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label PT8908
+    brand_type: generic
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label PT8902
+    brand_type: generic
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label PT8097
+    brand_type: generic
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC PT5712
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC PT2876
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Generic PT2712
+    brand_type: manufacturer
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label PT1154
+    brand_type: generic
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label PT1105
+    brand_type: generic
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label PT 1520
+    brand_type: generic
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label PT 1414
+    brand_type: generic
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label PT 1158
+    brand_type: generic
+    class: Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Generic AM VAT
+    brand_type: manufacturer
+    class: Vat Photopolymer
+    family: Photopolymer Resins
+    type: Polymers
+custom polymer:
+  aliases:
+  - custom polymer
+  materials:
+  - brand_name: White Label Custom Polymer
+    brand_type: generic
+    class: Custom Polymer
+    family: Thermoplastics
+    type: Polymers
+custom metal:
+  aliases:
+  - custom metal
+  materials:
+  - brand_name: Generic Custom Metal
+    brand_type: manufacturer
+    class: Custom Metal
+    family: Metals
+    type: Metals
+pbt:
+  aliases:
+  - pbt
+  materials:
+  - brand_name: DuPont Crastin 6131 NC010
+    brand_type: manufacturer
+    class: Polyester (PBT)
+    family: Thermoplastics
+    type: Polymers
+  - brand_name: DSM Arnite ID 3040
+    brand_type: manufacturer
+    class: Polyester (PBT)
+    family: Thermoplastics
+    type: Polymers
+cork:
+  aliases:
+  - cork
+  materials:
+  - brand_name: White Label Cork
+    brand_type: generic
+    class: Natural Material
+    family: Natural Materials
+    type: Natural Materials
+cuw:
+  aliases:
+  - cuw
+  materials:
+  - brand_name: White Label Copper Tungsten (Sheet)
+    brand_type: generic
+    class: Copper Tungsten
+    family: Copper Alloys
+    type: Metals
+  - brand_name: White Label Copper Tungsten
+    brand_type: generic
+    class: Copper Tungsten
+    family: Copper Alloys
+    type: Metals
+c180:
+  aliases:
+  - c180
+  materials:
+  - brand_name: White Label Copper C180
+    brand_type: generic
+    class: Copper Alloy
+    family: Copper Alloys
+    type: Metals
+c150:
+  aliases:
+  - c150
+  materials:
+  - brand_name: White Label Copper C150
+    brand_type: generic
+    class: Copper Alloy
+    family: Copper Alloys
+    type: Metals
+c110:
+  aliases:
+  - c110
+  materials:
+  - brand_name: White Label Copper C110
+    brand_type: generic
+    class: Copper
+    family: Copper Alloys
+    type: Metals
+cusn10:
+  aliases:
+  - cusn10
+  materials:
+  - brand_name: White Label Copper Alloy CuSn10
+    brand_type: generic
+    class: Tin Bronze
+    family: Copper Alloys
+    type: Metals
+c651:
+  aliases:
+  - c651
+  materials:
+  - brand_name: White Label Copper 651
+    brand_type: generic
+    class: Copper Alloy
+    family: Copper Alloys
+    type: Metals
+c260:
+  aliases:
+  - c260
+  materials:
+  - brand_name: White Label Copper 260
+    brand_type: generic
+    class: Brass
+    family: Copper Alloys
+    type: Metals
+  - brand_name: White Label Brass 260
+    brand_type: generic
+    class: Brass
+    family: Copper Alloys
+    type: Metals
+copper:
+  aliases:
+  - copper
+  materials:
+  - brand_name: White Label Copper
+    brand_type: generic
+    class: Copper
+    family: Copper Alloys
+    type: Metals
+cocrmo:
+  aliases:
+  - cocrmo
+  materials:
+  - brand_name: EOS Cobalt Chrome SP2
+    brand_type: manufacturer
+    class: Cobalt Chrome
+    family: Cobalt Alloys
+    type: Metals
+  - brand_name: EOS Cobalt Chrome MP1
+    brand_type: manufacturer
+    class: Cobalt Chrome
+    family: Cobalt Alloys
+    type: Metals
+  - brand_name: Arcam AB Cobalt Chrome F75
+    brand_type: manufacturer
+    class: Cobalt Chrome
+    family: Cobalt Alloys
+    type: Metals
+  - brand_name: 3D Systems Cobalt Chrome CoCr
+    brand_type: manufacturer
+    class: Cobalt Chrome
+    family: Cobalt Alloys
+    type: Metals
+cocr28mo6:
+  aliases:
+  - cocr28mo6
+  materials:
+  - brand_name: EOS Cobalt Alloy CoCr28Mo6
+    brand_type: manufacturer
+    class: Cobalt Chrome
+    family: Cobalt Alloys
+    type: Metals
+tool steel:
+  aliases:
+  - tool steel
+  materials:
+  - brand_name: Arcam AB Chromite
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Alloy Steels
+    type: Metals
+  - brand_name: Concept Laser CL 50WS
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Alloy Steels
+    type: Metals
+alumina:
+  aliases:
+  - alumina
+  materials:
+  - brand_name: Generic Alumina
+    brand_type: manufacturer
+    class: Technical Ceramic
+    family: Ceramics
+    type: Ceramics
+polystyrene:
+  aliases:
+  - polystyrene
+  materials:
+  - brand_name: 3D Systems CastForm PS Plastic
+    brand_type: manufacturer
+    class: PS Plastic
+    family: Thermoplastics
+    type: Polymers
+  - brand_name: White Label Polystyrene Crystal (PS)
+    brand_type: generic
+    class: Polystyrene
+    family: Commodity Thermoplastics
+    type: Polymers
+  - brand_name: ALM 3D PS-200
+    brand_type: manufacturer
+    class: Polystyrene
+    family: Commodity Thermoplastics
+    type: Polymers
+pa-cf:
+  aliases:
+  - pa-cf
+  materials:
+  - brand_name: White Label CarbonMide (PA-CF)
+    brand_type: generic
+    class: Carbon-Filled Nylon
+    family: Thermoplastics
+    type: Polymers
+carbon steel:
+  aliases:
+  - carbon steel
+  materials:
+  - brand_name: White Label Carbon Steel
+    brand_type: generic
+    class: Carbon Steel
+    family: Steels
+    type: Metals
+petg-cf:
+  aliases:
+  - petg-cf
+  materials:
+  - brand_name: White Label Carbon Fiber PETG
+    brand_type: generic
+    class: Carbon-Filled PETG
+    family: Thermoplastics
+    type: Polymers
+cfrp:
+  aliases:
+  - cfrp
+  materials:
+  - brand_name: Markforged Continuous Carbon Fiber
+    brand_type: manufacturer
+    class: Continuous Carbon Fiber Composite
+    family: Composites
+    type: Composites
+kovar:
+  aliases:
+  - kovar
+  materials:
+  - brand_name: Carpenter CarTech Kovar
+    brand_type: manufacturer
+    class: Fe-Ni-Co Alloy
+    family: Specialty Alloys
+    type: Metals
+17-4ph:
+  aliases:
+  - 17-4ph
+  materials:
+  - brand_name: Concept Laser CL 92PH
+    brand_type: manufacturer
+    class: PH Stainless Steel
+    family: Stainless Steel
+    type: Metals
+hot-work tool steel:
+  aliases:
+  - hot-work tool steel
+  materials:
+  - brand_name: Concept Laser CL 91RW
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Alloy Steels
+    type: Metals
+bronze alloy:
+  aliases:
+  - bronze alloy
+  materials:
+  - brand_name: Concept Laser CL 80CU
+    brand_type: manufacturer
+    class: Bronze
+    family: Copper Alloys
+    type: Metals
+titanium grade 2:
+  aliases:
+  - titanium grade 2
+  materials:
+  - brand_name: Concept Laser CL 42TI
+    brand_type: manufacturer
+    class: Commercially Pure Titanium
+    family: Titanium
+    type: Metals
+  - brand_name: EOS Titanium TiCP Grade 2
+    brand_type: manufacturer
+    class: Commercially Pure Titanium
+    family: Titanium Alloys
+    type: Metals
+  - brand_name: AP&C Titanium TiCP -Grade 2 - UNS R50400
+    brand_type: manufacturer
+    class: Commercially Pure Titanium
+    family: Titanium
+    type: Metals
+  - brand_name: SLM Solutions Ti (Grade 2)
+    brand_type: manufacturer
+    class: Commercially Pure Titanium
+    family: Titanium
+    type: Metals
+ti-6al-4v eli:
+  aliases:
+  - ti-6al-4v eli
+  materials:
+  - brand_name: Concept Laser CL 41TI
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium
+    type: Metals
+  - brand_name: EOS Titanium Ti64ELI
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+  - brand_name: White Label Titanium Grade 23 (Ti6Al4V ELI)
+    brand_type: generic
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+aluminum alloy:
+  aliases:
+  - aluminum alloy
+  materials:
+  - brand_name: Concept Laser CL 32AL
+    brand_type: manufacturer
+    class: Aluminum
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: Concept Laser CL 31AL
+    brand_type: manufacturer
+    class: Aluminum
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: Concept Laser CL 30AL
+    brand_type: manufacturer
+    class: Aluminum
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2501
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2463
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2456
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2398
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2380
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2505
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2503
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2871
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2791-5
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2791
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2781-5
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2781
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2766-5
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2766
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2056-5
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2056
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2036-5
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2036
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2021-5
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2021
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: STERalloy™ FDG 2871-4
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+316l:
+  aliases:
+  - 316l
+  materials:
+  - brand_name: Concept Laser CL 20ES
+    brand_type: manufacturer
+    class: Stainless Steel
+    family: Stainless Steel
+    type: Metals
+  - brand_name: White Label Stainless Steel 316L
+    brand_type: generic
+    class: Austenitic Stainless Steel
+    family: Stainless Steel
+    type: Metal
+  - brand_name: ExOne Stainless Steel 316L
+    brand_type: manufacturer
+    class: Austenitic Stainless Steel
+    family: Stainless Steel
+    type: Metal
+cyanate ester resin:
+  aliases:
+  - cyanate ester resin
+  materials:
+  - brand_name: Carbon CE Cyanate Ester
+    brand_type: manufacturer
+    class: High-Temp Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Carbon CE 221
+    brand_type: manufacturer
+    class: High-Temp Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Carbon CE 220
+    brand_type: manufacturer
+    class: High-Temp Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Carbon CE
+    brand_type: manufacturer
+    class: High-Temp Resin
+    family: Thermoset Polymers
+    type: Polymers
+c102:
+  aliases:
+  - c102
+  materials:
+  - brand_name: White Label C102 Copper Alloy
+    brand_type: generic
+    class: Copper Alloy
+    family: Copper Alloys
+    type: Metals
+c101:
+  aliases:
+  - c101
+  materials:
+  - brand_name: White Label C101 Copper Alloy
+    brand_type: generic
+    class: Copper Alloy
+    family: Copper Alloys
+    type: Metals
+c103:
+  aliases:
+  - c103
+  materials:
+  - brand_name: White Label C103 Copper Alloy
+    brand_type: generic
+    class: Copper Alloy
+    family: Copper Alloys
+    type: Metals
+bronze-filled polymer:
+  aliases:
+  - bronze-filled polymer
+  materials:
+  - brand_name: taulman3D Bronze
+    brand_type: manufacturer
+    class: Metal-Filled Polymer
+    family: Thermoplastics
+    type: Polymers
+nylon 6/66 blend:
+  aliases:
+  - nylon 6/66 blend
+  materials:
+  - brand_name: taulman3D Bridge Nylon
+    brand_type: manufacturer
+    class: Nylon
+    family: Thermoplastics
+    type: Polymers
+c377:
+  aliases:
+  - c377
+  materials:
+  - brand_name: White Label Brass 377
+    brand_type: generic
+    class: Brass
+    family: Copper Alloys
+    type: Metals
+c360:
+  aliases:
+  - c360
+  materials:
+  - brand_name: White Label Brass 360
+    brand_type: generic
+    class: Brass
+    family: Copper Alloys
+    type: Metals
+c340:
+  aliases:
+  - c340
+  materials:
+  - brand_name: White Label Brass 340
+    brand_type: generic
+    class: Brass
+    family: Copper Alloys
+    type: Metals
+c330:
+  aliases:
+  - c330
+  materials:
+  - brand_name: White Label Brass 330
+    brand_type: generic
+    class: Brass
+    family: Copper Alloys
+    type: Metals
+c270:
+  aliases:
+  - c270
+  materials:
+  - brand_name: White Label Brass 270
+    brand_type: generic
+    class: Brass
+    family: Copper Alloys
+    type: Metals
+c240:
+  aliases:
+  - c240
+  materials:
+  - brand_name: White Label Brass 240
+    brand_type: generic
+    class: Brass
+    family: Copper Alloys
+    type: Metals
+c230:
+  aliases:
+  - c230
+  materials:
+  - brand_name: White Label Brass 230
+    brand_type: generic
+    class: Brass
+    family: Copper Alloys
+    type: Metals
+brass:
+  aliases:
+  - brass
+  materials:
+  - brand_name: White Label Brass
+    brand_type: generic
+    class: Brass
+    family: Copper Alloys
+    type: Metals
+petg:
+  aliases:
+  - petg
+  materials:
+  - brand_name: taulman3D Bluprint
+    brand_type: manufacturer
+    class: PETG
+    family: Thermoplastics
+    type: Polymers
+  - brand_name: White Label Polyethylene Terepthalate G Polyester (PETg)
+    brand_type: generic
+    class: PETG
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: Zortrax Z-PETG
+    brand_type: manufacturer
+    class: Glycol-Modified PET
+    family: Polyesters
+    type: Polymers
+  - brand_name: BigRep PETG
+    brand_type: manufacturer
+    class: PETG
+    family: Commodity Thermoplastics
+    type: Polymers
+  - brand_name: IC3D PETG 3D Printer Filament
+    brand_type: manufacturer
+    class: PETG
+    family: Commodity Thermoplastics
+    type: Polymers
+becu:
+  aliases:
+  - becu
+  materials:
+  - brand_name: White Label Beryllium Copper
+    brand_type: generic
+    class: Beryllium Copper
+    family: Copper Alloys
+    type: Metals
+tpe-e:
+  aliases:
+  - tpe-e
+  materials:
+  - brand_name: DSM Arnitel ID 2060 HT
+    brand_type: manufacturer
+    class: COPE
+    family: TPE
+    type: Elastomers
+  - brand_name: DSM Arnitel ID 2045
+    brand_type: manufacturer
+    class: COPE
+    family: TPE
+    type: Elastomers
+alsi9cu3:
+  aliases:
+  - alsi9cu3
+  materials:
+  - brand_name: White Label Aluminum Alloy AlSi9Cu3
+    brand_type: generic
+    class: Aluminum Casting Alloy
+    family: Aluminum Alloys
+    type: Metals
+alsi7mg0.6:
+  aliases:
+  - alsi7mg0.6
+  materials:
+  - brand_name: 3D Systems Aluminum Alloy AlSi7Mg0.6
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+alsi12:
+  aliases:
+  - alsi12
+  materials:
+  - brand_name: 3D Systems Aluminum Alloy AlSi12
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: White Label AlSi12 HPDC
+    brand_type: generic
+    class: Aluminum Alloy (Cast)
+    family: Aluminum
+    type: Metal
+alsi10mg:
+  aliases:
+  - alsi10mg
+  materials:
+  - brand_name: EOS Aluminum Alloy AlSi10Mg
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: EOS Aluminum AlSi10Mg/200C
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+alsi12mg:
+  aliases:
+  - alsi12mg
+  materials:
+  - brand_name: SLM Solutions Aluminum AlSi12Mg
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+'7075':
+  aliases:
+  - '7075'
+  materials:
+  - brand_name: White Label Aluminum 7075
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+'6063':
+  aliases:
+  - '6063'
+  materials:
+  - brand_name: White Label Aluminum 6063
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+'6061':
+  aliases:
+  - '6061'
+  materials:
+  - brand_name: White Label Aluminum 6061
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+'5083':
+  aliases:
+  - '5083'
+  materials:
+  - brand_name: White Label Aluminum 5083
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+'5052':
+  aliases:
+  - '5052'
+  materials:
+  - brand_name: White Label Aluminum 5052
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+'3003':
+  aliases:
+  - '3003'
+  materials:
+  - brand_name: White Label Aluminum 3003
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+'2024':
+  aliases:
+  - '2024'
+  materials:
+  - brand_name: White Label Aluminum 2024
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+'2011':
+  aliases:
+  - '2011'
+  materials:
+  - brand_name: White Label Aluminum 2011
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+'1100':
+  aliases:
+  - '1100'
+  materials:
+  - brand_name: White Label Aluminum 1100
+    brand_type: generic
+    class: Aluminum
+    family: Aluminum Alloys
+    type: Metals
+'1060':
+  aliases:
+  - '1060'
+  materials:
+  - brand_name: White Label Aluminum 1060
+    brand_type: generic
+    class: Aluminum
+    family: Aluminum Alloys
+    type: Metals
+'1050':
+  aliases:
+  - '1050'
+  materials:
+  - brand_name: White Label Aluminum 1050
+    brand_type: generic
+    class: Aluminum
+    family: Aluminum Alloys
+    type: Metals
+alumina 99.8%:
+  aliases:
+  - alumina 99.8%
+  materials:
+  - brand_name: Alumina 99.8%
+    brand_type: manufacturer
+    class: Technical Ceramic
+    family: Ceramics
+    type: Ceramics
+alumina 99.9%:
+  aliases:
+  - alumina 99.9%
+  materials:
+  - brand_name: Alumina 99.9%
+    brand_type: manufacturer
+    class: Technical Ceramic
+    family: Ceramics
+    type: Ceramics
+pa12 + aluminum:
+  aliases:
+  - pa12 + aluminum
+  materials:
+  - brand_name: EOS Alumide
+    brand_type: manufacturer
+    class: Metal-Filled Nylon
+    family: Thermoplastics
+    type: Polymers
+4605 steel:
+  aliases:
+  - 4605 steel
+  materials:
+  - brand_name: Desktop Metal Alloy Steel 4605 (FN02)
+    brand_type: manufacturer
+    class: Alloy Steel
+    family: Steels
+    type: Metals
+aisi 4140 alloy steel:
+  aliases:
+  - aisi 4140 alloy steel
+  materials:
+  - brand_name: Desktop Metal Alloy Steel 4140 (Chrome Moly)
+    brand_type: manufacturer
+    class: Low Alloy Steel
+    family: Steel
+    type: Metal
+alsi13mg:
+  aliases:
+  - alsi13mg
+  materials:
+  - brand_name: White Label AlSi13Mg
+    brand_type: generic
+    class: Aluminum Alloy (Cast)
+    family: Aluminum
+    type: Metal
+alsi11:
+  aliases:
+  - alsi11
+  materials:
+  - brand_name: White Label AlSi11
+    brand_type: generic
+    class: Aluminum Alloy (Cast)
+    family: Aluminum
+    type: Metal
+polyjet rubber-like photopolymer:
+  aliases:
+  - polyjet rubber-like photopolymer
+  materials:
+  - brand_name: Stratasys Agilus 30 FLX 935
+    brand_type: manufacturer
+    class: Elastomeric Photopolymer
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: Stratasys TangoPlus FLX930
+    brand_type: manufacturer
+    class: Elastomeric Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: Stratasys TangoGray FLX950
+    brand_type: manufacturer
+    class: Elastomeric Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: Stratasys TangoBlackPlus FLX980
+    brand_type: manufacturer
+    class: Elastomeric Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: Stratasys TangoBlack FLX973
+    brand_type: manufacturer
+    class: Elastomeric Resin
+    family: Photopolymer Resin
+    type: Polymer
+pmma:
+  aliases:
+  - pmma
+  materials:
+  - brand_name: White Label Acrylic Poly(methyl methacrylate) (PMMA)
+    brand_type: generic
+    class: Acrylic
+    family: Thermoplastic
+    type: Polymer
+pom (acetal):
+  aliases:
+  - pom (acetal)
+  materials:
+  - brand_name: Ensinger Acetal (Polyoxymethylene/POM)
+    brand_type: manufacturer
+    class: Acetal
+    family: Engineering Thermoplastic
+    type: Polymer
+filled epoxy photopolymer:
+  aliases:
+  - filled epoxy photopolymer
+  materials:
+  - brand_name: 3D Systems Accura e-Stone
+    brand_type: manufacturer
+    class: Ceramic-Filled Photopolymer
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Accura Bluestone
+    brand_type: manufacturer
+    class: Ceramic-Filled Resin
+    family: Photopolymer Resin
+    type: Polymer
+tough abs-like photopolymer:
+  aliases:
+  - tough abs-like photopolymer
+  materials:
+  - brand_name: 3D Systems Accura Xtreme
+    brand_type: manufacturer
+    class: ABS-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+clear epoxy photopolymer:
+  aliases:
+  - clear epoxy photopolymer
+  materials:
+  - brand_name: 3D Systems Accura Sapphire
+    brand_type: manufacturer
+    class: Clear Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Accura ClearVue Free (SL 7870)
+    brand_type: manufacturer
+    class: Clear Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Accura ClearVue
+    brand_type: manufacturer
+    class: Clear Resin
+    family: Photopolymer Resin
+    type: Polymer
+polypropylene-like photopolymer:
+  aliases:
+  - polypropylene-like photopolymer
+  materials:
+  - brand_name: 3D Systems Accura SL 5530
+    brand_type: manufacturer
+    class: PP-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+high-temp epoxy photopolymer:
+  aliases:
+  - high-temp epoxy photopolymer
+  materials:
+  - brand_name: 3D Systems Accura PEAK
+    brand_type: manufacturer
+    class: High-Temperature Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Accura 48HTR
+    brand_type: manufacturer
+    class: High-Temperature Resin
+    family: Photopolymer Resin
+    type: Polymer
+high-performance composite resin:
+  aliases:
+  - high-performance composite resin
+  materials:
+  - brand_name: 3D Systems Accura HPC
+    brand_type: manufacturer
+    class: Composite Photopolymer
+    family: Photopolymer Resin
+    type: Polymer
+ceramic-filled photopolymer:
+  aliases:
+  - ceramic-filled photopolymer
+  materials:
+  - brand_name: 3D Systems Accura CeraMAX Composite
+    brand_type: manufacturer
+    class: Ceramic Composite Resin
+    family: Photopolymer Resin
+    type: Polymer
+castable photopolymer:
+  aliases:
+  - castable photopolymer
+  materials:
+  - brand_name: 3D Systems Accura CastPro Free (SL 7800)
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Accura CastPro
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Visijet M3 Cast
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+general-purpose epoxy photopolymer:
+  aliases:
+  - general-purpose epoxy photopolymer
+  materials:
+  - brand_name: 3D Systems Accura Amethyst
+    brand_type: manufacturer
+    class: Standard Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: 3D Systems Accura 25
+    brand_type: manufacturer
+    class: Standard Resin
+    family: Photopolymer Resin
+    type: Polymer
+elastomeric photopolymer:
+  aliases:
+  - elastomeric photopolymer
+  materials:
+  - brand_name: EnvisionTEC Abflex
+    brand_type: manufacturer
+    class: Rubber-Like Resin
+    family: Photopolymer Resin
+    type: Polymer
+co-cr-mo alloy:
+  aliases:
+  - co-cr-mo alloy
+  materials:
+  - brand_name: Arcam AB ASMT F75 CoCr
+    brand_type: manufacturer
+    class: Cobalt-Chromium Alloy
+    family: Cobalt Alloys
+    type: Metal
+  - brand_name: Stratasys Stellite 21
+    brand_type: manufacturer
+    class: Cobalt Alloy
+    family: Cobalt Alloys
+    type: Metal
+asa:
+  aliases:
+  - asa
+  materials:
+  - brand_name: Stratasys ASA
+    brand_type: manufacturer
+    class: Styrenic Polymer
+    family: Thermoplastic
+    type: Polymer
+  - brand_name: BigRep ASA
+    brand_type: manufacturer
+    class: ASA
+    family: Commodity Thermoplastics
+    type: Polymers
+  - brand_name: Fillamentum ASA Extrafill
+    brand_type: manufacturer
+    class: Styrenic Polymer
+    family: Thermoplastic
+    type: Polymer
+abs-i:
+  aliases:
+  - abs-i
+  materials:
+  - brand_name: Stratasys ABSi
+    brand_type: manufacturer
+    class: ABS Variant
+    family: Thermoplastic
+    type: Polymer
+abs-m30i:
+  aliases:
+  - abs-m30i
+  materials:
+  - brand_name: Stratasys ABS-M30i
+    brand_type: manufacturer
+    class: ABS Variant
+    family: Thermoplastic
+    type: Polymer
+abs-m30:
+  aliases:
+  - abs-m30
+  materials:
+  - brand_name: Stratasys ABS-M30
+    brand_type: manufacturer
+    class: ABS Variant
+    family: Thermoplastic
+    type: Polymer
+abs-esd:
+  aliases:
+  - abs-esd
+  materials:
+  - brand_name: Stratasys ABS-ESD7 Antistatic
+    brand_type: manufacturer
+    class: ESD-Safe ABS
+    family: Thermoplastic
+    type: Polymer
+abs:
+  aliases:
+  - abs
+  materials:
+  - brand_name: Stratasys ABS Plus
+    brand_type: manufacturer
+    class: ABS
+    family: Thermoplastic
+    type: Polymer
+  - brand_name: White Label ABS Plastic
+    brand_type: generic
+    class: ABS
+    family: Thermoplastic
+    type: Polymer
+  - brand_name: Stratasys UABS RT
+    brand_type: manufacturer
+    class: ABS
+    family: Commodity Thermoplastics
+    type: Polymers
+  - brand_name: Stratasys UABS HT
+    brand_type: manufacturer
+    class: High Temp ABS
+    family: Commodity Thermoplastics
+    type: Polymers
+  - brand_name: Stratasys UABS 85
+    brand_type: manufacturer
+    class: ABS
+    family: Commodity Thermoplastics
+    type: Polymers
+  - brand_name: BigRep ABS
+    brand_type: manufacturer
+    class: ABS
+    family: Commodity Thermoplastics
+    type: Polymers
+  - brand_name: White Label AM ABS (FDM)
+    brand_type: generic
+    class: ABS
+    family: Commodity Thermoplastics
+    type: Polymers
+  - brand_name: Fillamentum ABS Extrafill
+    brand_type: manufacturer
+    class: Styrenic Polymer
+    family: Thermoplastic
+    type: Polymer
+flexible abs-like photopolymer:
+  aliases:
+  - flexible abs-like photopolymer
+  materials:
+  - brand_name: EnvisionTEC ABS Flex Series
+    brand_type: manufacturer
+    class: Flexible Resin
+    family: Photopolymer Resin
+    type: Polymer
+  - brand_name: EnvisionTEC ABS 3SP Flex
+    brand_type: manufacturer
+    class: Flexible Resin
+    family: Photopolymer Resin
+    type: Polymer
+cf-filled abs:
+  aliases:
+  - cf-filled abs
+  materials:
+  - brand_name: White Label ABS / Carbon Fiber
+    brand_type: generic
+    class: Fiber-Reinforced ABS
+    family: Thermoplastic Composite
+    type: Polymer
+  - brand_name: White Label ABS / 40% Carbon Fiber
+    brand_type: generic
+    class: Fiber-Reinforced ABS
+    family: Thermoplastic Composite
+    type: Polymer
+  - brand_name: White Label ABS / 20% Carbon Fiber
+    brand_type: generic
+    class: Fiber-Reinforced ABS
+    family: Thermoplastic Composite
+    type: Polymer
+gf-filled abs:
+  aliases:
+  - gf-filled abs
+  materials:
+  - brand_name: White Label ABS / 40% Glass Fiber
+    brand_type: generic
+    class: Fiber-Reinforced ABS
+    family: Thermoplastic Composite
+    type: Polymer
+  - brand_name: White Label ABS / 20% Glass Fiber
+    brand_type: generic
+    class: Fiber-Reinforced ABS
+    family: Thermoplastic Composite
+    type: Polymer
+a356:
+  aliases:
+  - a356
+  materials:
+  - brand_name: White Label A356 Aluminum Alloy
+    brand_type: generic
+    class: Aluminum Casting Alloy
+    family: Aluminum
+    type: Metal
+ti-6al-4v:
+  aliases:
+  - ti-6al-4v
+  materials:
+  - brand_name: White Label Ti6Al4V Titanium Alloy
+    brand_type: generic
+    class: Alpha-Beta Titanium
+    family: Titanium Alloys
+    type: Metal
+  - brand_name: White Label Titanium Ti64
+    brand_type: generic
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+  - brand_name: White Label Titanium Grade 5 (Ti6Al4V)
+    brand_type: generic
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+  - brand_name: Desktop Metal Ti6Al4V
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+tpe:
+  aliases:
+  - tpe
+  materials:
+  - brand_name: White Label Thermoplastic Elastomer (TPE)
+    brand_type: generic
+    class: Thermoplastic Elastomer
+    family: Elastomers
+    type: Polymer
+  - brand_name: ALM TPE 360
+    brand_type: manufacturer
+    class: Thermoplastic Elastomer
+    family: Elastomers
+    type: Polymer
+  - brand_name: ALM TPE 300
+    brand_type: manufacturer
+    class: Thermoplastic Elastomer
+    family: Elastomers
+    type: Polymer
+  - brand_name: ALM TPE 210-S
+    brand_type: manufacturer
+    class: Thermoplastic Elastomer
+    family: Elastomers
+    type: Polymer
+tpr:
+  aliases:
+  - tpr
+  materials:
+  - brand_name: White Label Thermoplastic Rubber (TPR)
+    brand_type: generic
+    class: Thermoplastic Elastomer
+    family: Elastomers
+    type: Polymer
+ptfe:
+  aliases:
+  - ptfe
+  materials:
+  - brand_name: White Label Teflon (PTFE)
+    brand_type: generic
+    class: Fluoropolymer
+    family: High-Performance Polymer
+    type: Polymer
+tantalum:
+  aliases:
+  - tantalum
+  materials:
+  - brand_name: White Label Tantalum
+    brand_type: generic
+    class: Refractory Metal
+    family: Specialty Metals
+    type: Metal
+pett:
+  aliases:
+  - pett
+  materials:
+  - brand_name: taulman3D T-Glase
+    brand_type: manufacturer
+    class: Polyester
+    family: Thermoplastic
+    type: Polymer
+san:
+  aliases:
+  - san
+  materials:
+  - brand_name: White Label Styrene Acrylonitrile (SAN)
+    brand_type: generic
+    class: Styrenic Polymer
+    family: Thermoplastic
+    type: Polymer
+ag-cu alloy (925):
+  aliases:
+  - ag-cu alloy (925)
+  materials:
+  - brand_name: White Label Sterling Silver
+    brand_type: generic
+    class: Precious Metal Alloy
+    family: Silver Alloys
+    type: Metal
+co-cr-w alloy:
+  aliases:
+  - co-cr-w alloy
+  materials:
+  - brand_name: White Label Stellite 6
+    brand_type: generic
+    class: Cobalt Alloy
+    family: Cobalt Alloys
+    type: Metal
+17-4 ph:
+  aliases:
+  - 17-4 ph
+  materials:
+  - brand_name: EOS StainlessSteel PH1
+    brand_type: manufacturer
+    class: Precipitation-Hardening SS
+    family: Stainless Steel
+    type: Metal
+  - brand_name: EOS StainlessSteel GP1
+    brand_type: manufacturer
+    class: Precipitation-Hardening SS
+    family: Stainless Steel
+    type: Metal
+  - brand_name: ExOne Stainless Steel 17-4PH
+    brand_type: manufacturer
+    class: Precipitation-Hardening SS
+    family: Stainless Steel
+    type: Metal
+stainless steel:
+  aliases:
+  - stainless steel
+  materials:
+  - brand_name: White Label Stainless Steel
+    brand_type: generic
+    class: General Stainless
+    family: Stainless Steel
+    type: Metal
+stainless steel 420:
+  aliases:
+  - stainless steel 420
+  materials:
+  - brand_name: White Label Stainless Steel 420
+    brand_type: generic
+    class: Stainless Steel
+    family: Ferrous Metals
+    type: Metals
+stainless steel 416:
+  aliases:
+  - stainless steel 416
+  materials:
+  - brand_name: White Label Stainless Steel 416
+    brand_type: generic
+    class: Stainless Steel
+    family: Ferrous Metals
+    type: Metals
+stainless steel 316 / bronze matrix:
+  aliases:
+  - stainless steel 316 / bronze matrix
+  materials:
+  - brand_name: ExOne Stainless Steel 316 Infiltrated with Bronze
+    brand_type: manufacturer
+    class: Stainless Steel Composite
+    family: Metal Matrix Composites
+    type: Metals
+  - brand_name: White Label Stainless Steel 316 / Bronze Matrix
+    brand_type: generic
+    class: Stainless Steel Composite
+    family: Metal Matrix Composites
+    type: Metals
+stainless steel 316:
+  aliases:
+  - stainless steel 316
+  materials:
+  - brand_name: White Label Stainless Steel 316
+    brand_type: generic
+    class: Stainless Steel
+    family: Ferrous Metals
+    type: Metals
+stainless steel 303:
+  aliases:
+  - stainless steel 303
+  materials:
+  - brand_name: White Label Stainless Steel 303
+    brand_type: generic
+    class: Stainless Steel
+    family: Ferrous Metals
+    type: Metals
+stainless steel 17-4 ph:
+  aliases:
+  - stainless steel 17-4 ph
+  materials:
+  - brand_name: Generic Stainless Steel 17-4PH (Obsolete)
+    brand_type: manufacturer
+    class: Precipitation Hardening Steel
+    family: Ferrous Metals
+    type: Metals
+  - brand_name: White Label Stainless Steel 17-4 PH
+    brand_type: generic
+    class: Precipitation Hardening Steel
+    family: Ferrous Metals
+    type: Metals
+stainless steel 15-5:
+  aliases:
+  - stainless steel 15-5
+  materials:
+  - brand_name: White Label Stainless Steel 15-5
+    brand_type: generic
+    class: Precipitation Hardening Steel
+    family: Ferrous Metals
+    type: Metals
+clear sla photopolymer resin:
+  aliases:
+  - clear sla photopolymer resin
+  materials:
+  - brand_name: Somos Somos WaterShed XC 11122
+    brand_type: manufacturer
+    class: Clear Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos WaterShed 11120
+    brand_type: manufacturer
+    class: Clear Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos WaterShed 11110
+    brand_type: manufacturer
+    class: Clear Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos WaterClear 10120
+    brand_type: manufacturer
+    class: Clear Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos WaterClear 10110
+    brand_type: manufacturer
+    class: Clear Resin
+    family: Thermoset Polymers
+    type: Polymers
+optical clear sla resin:
+  aliases:
+  - optical clear sla resin
+  materials:
+  - brand_name: Somos Somos WaterClear Ultra 10122
+    brand_type: manufacturer
+    class: Optical Clear Resin
+    family: Thermoset Polymers
+    type: Polymers
+tough sla photopolymer resin:
+  aliases:
+  - tough sla photopolymer resin
+  materials:
+  - brand_name: Somos Somos Taurus
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos ProtoGen 18920
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos ProtoGen 18420
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos ProtoGen 18120
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Thermoset Polymers
+    type: Polymers
+high-temperature sla resin:
+  aliases:
+  - high-temperature sla resin
+  materials:
+  - brand_name: Somos Somos ProtoTherm 12120
+    brand_type: manufacturer
+    class: High Temp Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos ProtoTherm 12110
+    brand_type: manufacturer
+    class: High Temp Resin
+    family: Thermoset Polymers
+    type: Polymers
+castable sla resin:
+  aliases:
+  - castable sla resin
+  materials:
+  - brand_name: Somos Somos ProtoCast 19122
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+abs-like sla resin:
+  aliases:
+  - abs-like sla resin
+  materials:
+  - brand_name: Somos Somos NeXt LV Grey
+    brand_type: manufacturer
+    class: ABS-like Resin
+    family: Thermoset Polymers
+    type: Polymers
+tooling sla resin:
+  aliases:
+  - tooling sla resin
+  materials:
+  - brand_name: Somos Somos NanoTool
+    brand_type: manufacturer
+    class: Tooling Resin
+    family: Thermoset Polymers
+    type: Polymers
+ceramic-filled sla resin:
+  aliases:
+  - ceramic-filled sla resin
+  materials:
+  - brand_name: Somos Somos NanoForm 15120
+    brand_type: manufacturer
+    class: Filled Resin
+    family: Thermoset Polymers
+    type: Polymers
+general purpose sla resin:
+  aliases:
+  - general purpose sla resin
+  materials:
+  - brand_name: Somos Somos GP Plus 14122
+    brand_type: manufacturer
+    class: General Purpose Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos 9420
+    brand_type: manufacturer
+    class: General Purpose Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos 9120
+    brand_type: manufacturer
+    class: General Purpose Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos 9110
+    brand_type: manufacturer
+    class: General Purpose Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos 8120
+    brand_type: manufacturer
+    class: General Purpose Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos 8110
+    brand_type: manufacturer
+    class: General Purpose Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos 7120
+    brand_type: manufacturer
+    class: General Purpose Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Somos Somos 14120
+    brand_type: manufacturer
+    class: General Purpose Resin
+    family: Thermoset Polymers
+    type: Polymers
+investment casting resin:
+  aliases:
+  - investment casting resin
+  materials:
+  - brand_name: Somos Somos DMX 100
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC PIC 100 M
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC PIC 100 G
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC PIC 100 C
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC PIC 100
+    brand_type: manufacturer
+    class: Castable Resin
+    family: Thermoset Polymers
+    type: Polymers
+biocompatible clear resin:
+  aliases:
+  - biocompatible clear resin
+  materials:
+  - brand_name: Somos Somos BioClear
+    brand_type: manufacturer
+    class: Medical Resin
+    family: Thermoset Polymers
+    type: Polymers
+silver:
+  aliases:
+  - silver
+  materials:
+  - brand_name: White Label Silver
+    brand_type: generic
+    class: Precious Metal
+    family: Non-Ferrous Metals
+    type: Metals
+silicone rubber shore 50a:
+  aliases:
+  - silicone rubber shore 50a
+  materials:
+  - brand_name: White Label Silicone Shore 50 (Red)
+    brand_type: generic
+    class: Silicone
+    family: Elastomers
+    type: Elastomers
+  - brand_name: White Label Silicone Shore 50 (Peach)
+    brand_type: generic
+    class: Silicone
+    family: Elastomers
+    type: Elastomers
+  - brand_name: White Label Silicone Shore 50 (Blue)
+    brand_type: generic
+    class: Silicone
+    family: Elastomers
+    type: Elastomers
+general purpose silicone:
+  aliases:
+  - general purpose silicone
+  materials:
+  - brand_name: White Label Silicone GP
+    brand_type: generic
+    class: Silicone
+    family: Elastomers
+    type: Elastomers
+silicone rubber:
+  aliases:
+  - silicone rubber
+  materials:
+  - brand_name: White Label Silicone Rubber
+    brand_type: generic
+    class: Silicone
+    family: Elastomers
+    type: Elastomers
+  - brand_name: White Label Silicone 4350
+    brand_type: generic
+    class: Silicone
+    family: Elastomers
+    type: Elastomers
+  - brand_name: White Label Silicone GP Shore A 60
+    brand_type: generic
+    class: Silicone
+    family: Elastomer
+    type: Polymer
+  - brand_name: White Label Silicone GP Shore A 40
+    brand_type: generic
+    class: Silicone
+    family: Elastomer
+    type: Polymer
+  - brand_name: White Label Silicone GP Shore A 30
+    brand_type: generic
+    class: Silicone
+    family: Elastomer
+    type: Polymer
+silicone rubber shore 35a:
+  aliases:
+  - silicone rubber shore 35a
+  materials:
+  - brand_name: White Label Silicone Shore 35A
+    brand_type: generic
+    class: Silicone
+    family: Elastomers
+    type: Elastomers
+silicone rubber shore 30a:
+  aliases:
+  - silicone rubber shore 30a
+  materials:
+  - brand_name: White Label Silicone Shore 30A
+    brand_type: generic
+    class: Silicone
+    family: Elastomers
+    type: Elastomers
+soluble support polymer:
+  aliases:
+  - soluble support polymer
+  materials:
+  - brand_name: Stratasys SR-30 Soluble Support Material
+    brand_type: manufacturer
+    class: Support Material
+    family: Support Materials
+    type: Polymers
+  - brand_name: Stratasys SR-110 Soluble Support Material
+    brand_type: manufacturer
+    class: Support Material
+    family: Support Materials
+    type: Polymers
+  - brand_name: Stratasys SR-100 Soluble Support Material
+    brand_type: manufacturer
+    class: Support Material
+    family: Support Materials
+    type: Polymers
+cobalt chrome alloy cocrmow:
+  aliases:
+  - cobalt chrome alloy cocrmow
+  materials:
+  - brand_name: SLM Solutions SLM MediDent CoCrMoW
+    brand_type: manufacturer
+    class: Cobalt Chrome Alloy
+    family: Non-Ferrous Metals
+    type: Metals
+rigid polyurethane foam:
+  aliases:
+  - rigid polyurethane foam
+  materials:
+  - brand_name: White Label Rigid Foam
+    brand_type: generic
+    class: Rigid Foam
+    family: Thermoset Polymers
+    type: Polymers
+polyurethane tooling board:
+  aliases:
+  - polyurethane tooling board
+  materials:
+  - brand_name: White Label Ren Board
+    brand_type: generic
+    class: Tooling Board
+    family: Thermoset Polymers
+    type: Polymers
+titanium alloy ti6al4v:
+  aliases:
+  - titanium alloy ti6al4v
+  materials:
+  - brand_name: Concept Laser Rematitan CL
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Non-Ferrous Metals
+    type: Metals
+cobalt chrome alloy cocrw:
+  aliases:
+  - cobalt chrome alloy cocrw
+  materials:
+  - brand_name: Concept Laser Remanium Star CL CoCrW Alloy
+    brand_type: manufacturer
+    class: Cobalt Chrome Alloy
+    family: Non-Ferrous Metals
+    type: Metals
+polyurethane resin:
+  aliases:
+  - polyurethane resin
+  materials:
+  - brand_name: White Label RS 100
+    brand_type: generic
+    class: Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label RS 201
+    brand_type: generic
+    class: Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label RS 200
+    brand_type: generic
+    class: Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label RS 1200
+    brand_type: generic
+    class: Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label RS 101
+    brand_type: generic
+    class: Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+rigid polyurethane:
+  aliases:
+  - rigid polyurethane
+  materials:
+  - brand_name: Carbon RPU Rigid Polyurethane
+    brand_type: manufacturer
+    class: Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Carbon RPU 70
+    brand_type: manufacturer
+    class: Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Carbon RPU 61
+    brand_type: manufacturer
+    class: Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Carbon RPU 60
+    brand_type: manufacturer
+    class: Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Carbon RPU
+    brand_type: manufacturer
+    class: Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+digital abs photopolymer:
+  aliases:
+  - digital abs photopolymer
+  materials:
+  - brand_name: Stratasys RGD5160-DM
+    brand_type: manufacturer
+    class: Digital ABS
+    family: Thermoset Polymers
+    type: Polymers
+ceramic-filled photopolymer resin:
+  aliases:
+  - ceramic-filled photopolymer resin
+  materials:
+  - brand_name: EnvisionTEC RCP30
+    brand_type: manufacturer
+    class: Filled Resin
+    family: Thermoset Polymers
+    type: Polymers
+transparent photopolymer resin:
+  aliases:
+  - transparent photopolymer resin
+  materials:
+  - brand_name: EnvisionTEC Qview
+    brand_type: manufacturer
+    class: Clear Resin
+    family: Thermoset Polymers
+    type: Polymers
+optical clear photopolymer resin:
+  aliases:
+  - optical clear photopolymer resin
+  materials:
+  - brand_name: EnvisionTEC Q-View C
+    brand_type: manufacturer
+    class: Optical Clear Resin
+    family: Thermoset Polymers
+    type: Polymers
+professional grade photopolymer resin:
+  aliases:
+  - professional grade photopolymer resin
+  materials:
+  - brand_name: Formlabs Pro Resin
+    brand_type: manufacturer
+    class: General Purpose Resin
+    family: Thermoset Polymers
+    type: Polymers
+peba 2301:
+  aliases:
+  - peba 2301
+  materials:
+  - brand_name: EOS Primepart ST (PEBA 2301)
+    brand_type: manufacturer
+    class: PEBA
+    family: TPE
+    type: Elastomers
+polyamide 12:
+  aliases:
+  - polyamide 12
+  materials:
+  - brand_name: EOS PrimePart Plus PA 2221
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 860
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 850 - Black
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 840-GSL Black
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 650
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 640 - GSL
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 2202 Black
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 2201
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 2200
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: EOS PA 12
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: Stratasys Nylon 12 (Unconditioned (Dry) FDM)
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: Stratasys Nylon 12 (Conditioned FDM)
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: Stratasys Nylon 12
+    brand_type: manufacturer
+    class: Nylon (PA12)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: HP 3D High Reusability PA12
+    brand_type: manufacturer
+    class: Nylon 12
+    family: Polyamides (Nylon)
+    type: Polymers
+  - brand_name: HP 3D High Reusability PA 12
+    brand_type: manufacturer
+    class: Nylon 12
+    family: Polyamides (Nylon)
+    type: Polymers
+polyvinylidene fluoride:
+  aliases:
+  - polyvinylidene fluoride
+  materials:
+  - brand_name: White Label Polyvinylidene Fluoride (PVDF)
+    brand_type: generic
+    class: PVDF
+    family: Engineering Thermoplastics
+    type: Polymers
+polyvinyl chloride:
+  aliases:
+  - polyvinyl chloride
+  materials:
+  - brand_name: White Label Polyvinyl Chloride (PVC)
+    brand_type: generic
+    class: PVC
+    family: Commodity Thermoplastics
+    type: Polymers
+polyurethane:
+  aliases:
+  - polyurethane
+  materials:
+  - brand_name: White Label Polyurethane (PU)
+    brand_type: generic
+    class: Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: White Label Polyurethane
+    brand_type: generic
+    class: Thermoset Polymer
+    family: Polyurethanes
+    type: Polymers
+polysulfone:
+  aliases:
+  - polysulfone
+  materials:
+  - brand_name: White Label Polysulfone (PSU)
+    brand_type: generic
+    class: PSU
+    family: High Performance Thermoplastics
+    type: Polymers
+polypropylene copolymer:
+  aliases:
+  - polypropylene copolymer
+  materials:
+  - brand_name: White Label Polypropylene Copolymer (PP)
+    brand_type: generic
+    class: Polypropylene
+    family: Commodity Thermoplastics
+    type: Polymers
+polyphthalamide:
+  aliases:
+  - polyphthalamide
+  materials:
+  - brand_name: White Label Polyphthalamide (PPA)
+    brand_type: generic
+    class: PPA
+    family: High Performance Thermoplastics
+    type: Polymers
+polyphenylene sulfide:
+  aliases:
+  - polyphenylene sulfide
+  materials:
+  - brand_name: Generic Polyphenylene Sulfide (PPS)
+    brand_type: manufacturer
+    class: PPS
+    family: High Performance Thermoplastics
+    type: Polymers
+polylactic acid:
+  aliases:
+  - polylactic acid
+  materials:
+  - brand_name: White Label Polylactic Acid (PLA)
+    brand_type: generic
+    class: PLA
+    family: Biopolymers
+    type: Polymers
+  - brand_name: Generic PLA colored
+    brand_type: manufacturer
+    class: PLA
+    family: Biopolymers
+    type: Polymers
+  - brand_name: Zortrax Z-PLA
+    brand_type: manufacturer
+    class: PLA
+    family: Bioplastics
+    type: Polymers
+pet modified polyester:
+  aliases:
+  - pet modified polyester
+  materials:
+  - brand_name: White Label Polyethylene Terepthalate Polyester Plus (PET+)
+    brand_type: generic
+    class: PET
+    family: Engineering Thermoplastics
+    type: Polymers
+polyethylene terephthalate:
+  aliases:
+  - polyethylene terephthalate
+  materials:
+  - brand_name: White Label Polyethylene Terepthalate Polyester (PET)
+    brand_type: generic
+    class: PET
+    family: Engineering Thermoplastics
+    type: Polymers
+polyethylene:
+  aliases:
+  - polyethylene
+  materials:
+  - brand_name: White Label Polyethylene (PE)
+    brand_type: generic
+    class: Polyethylene
+    family: Commodity Thermoplastics
+    type: Polymers
+polyetherimide:
+  aliases:
+  - polyetherimide
+  materials:
+  - brand_name: White Label Polyetherimide (PEI)
+    brand_type: generic
+    class: PEI
+    family: High Performance Thermoplastics
+    type: Polymers
+polyester:
+  aliases:
+  - polyester
+  materials:
+  - brand_name: White Label Polyester (PE)
+    brand_type: generic
+    class: Polyester
+    family: Engineering Thermoplastics
+    type: Polymers
+polycarbonate:
+  aliases:
+  - polycarbonate
+  materials:
+  - brand_name: White Label Polycarbonate (PC)
+    brand_type: generic
+    class: PC
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: Generic Polycarbonate
+    brand_type: manufacturer
+    class: PC
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: White Label Makrolon GP
+    brand_type: generic
+    class: Polycarbonate
+    family: Engineering Thermoplastics
+    type: Polymers
+polybutylene terephthalate:
+  aliases:
+  - polybutylene terephthalate
+  materials:
+  - brand_name: White Label Polybutylene Terepthalate (PBT)
+    brand_type: generic
+    class: PBT
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: Generic Polybutylene Terephthalate (PBT) UL94-V0
+    brand_type: manufacturer
+    class: PBT UL94-V0
+    family: Engineering Thermoplastics
+    type: Polymers
+silver-filled photopolymer resin:
+  aliases:
+  - silver-filled photopolymer resin
+  materials:
+  - brand_name: EnvisionTEC Photosilver
+    brand_type: manufacturer
+    class: Filled Resin
+    family: Thermoset Polymers
+    type: Polymers
+ceramic-filled dental resin:
+  aliases:
+  - ceramic-filled dental resin
+  materials:
+  - brand_name: EnvisionTEC Perfactory E-Dentstone
+    brand_type: manufacturer
+    class: Ceramic Resin
+    family: Thermoset Polymers
+    type: Polymers
+paper:
+  aliases:
+  - paper
+  materials:
+  - brand_name: White Label Paper
+    brand_type: generic
+    class: Paper
+    family: Natural Materials
+    type: Others
+palladium:
+  aliases:
+  - palladium
+  materials:
+  - brand_name: White Label Palladium
+    brand_type: generic
+    class: Precious Metal
+    family: Metals
+    type: Metals
+polyphenylsulfone:
+  aliases:
+  - polyphenylsulfone
+  materials:
+  - brand_name: White Label PPSF/PPSU
+    brand_type: generic
+    class: PPSU
+    family: High Performance Thermoplastics
+    type: Polymers
+polyether ether ketone:
+  aliases:
+  - polyether ether ketone
+  materials:
+  - brand_name: White Label PEEK HP3
+    brand_type: generic
+    class: PEEK
+    family: High Performance Thermoplastics
+    type: Polymers
+  - brand_name: White Label Polyether ether ketone (PEEK)
+    brand_type: generic
+    class: PEEK
+    family: High Performance Thermoplastics
+    type: Polymers
+thermoplastic elastomer:
+  aliases:
+  - thermoplastic elastomer
+  materials:
+  - brand_name: White Label PCTPE
+    brand_type: generic
+    class: TPE
+    family: TPE
+    type: Elastomers
+medical grade polycarbonate:
+  aliases:
+  - medical grade polycarbonate
+  materials:
+  - brand_name: White Label PC-ISO
+    brand_type: generic
+    class: PC-ISO
+    family: Engineering Thermoplastics
+    type: Polymers
+pc-abs blend:
+  aliases:
+  - pc-abs blend
+  materials:
+  - brand_name: White Label PC-ABS
+    brand_type: generic
+    class: PC-ABS
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: Stratasys PC-ABS
+    brand_type: manufacturer
+    class: Polymer Blend
+    family: Thermoplastic
+    type: Polymer
+polyamide 11:
+  aliases:
+  - polyamide 11
+  materials:
+  - brand_name: ALM PA11-SX 1450
+    brand_type: manufacturer
+    class: Nylon (PA11)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: White Label Nylon 11
+    brand_type: generic
+    class: Nylon (PA11)
+    family: Engineering Thermoplastics
+    type: Polymers
+polyamide elastomer:
+  aliases:
+  - polyamide elastomer
+  materials:
+  - brand_name: ALM PA D80-ST
+    brand_type: manufacturer
+    class: Flexible Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+carbon fiber reinforced nylon:
+  aliases:
+  - carbon fiber reinforced nylon
+  materials:
+  - brand_name: ALM PA 802-CF
+    brand_type: manufacturer
+    class: CF Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 603 - CF
+    brand_type: manufacturer
+    class: CF Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: Carbon Nylon with Carbon Fiber Reinforcement
+    brand_type: manufacturer
+    class: CF Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: CarbonX Carbon Fiber Nylon
+    brand_type: manufacturer
+    class: Fiber Reinforced Nylon
+    family: Composite Thermoplastic
+    type: Polymer
+mineral filled nylon:
+  aliases:
+  - mineral filled nylon
+  materials:
+  - brand_name: ALM PA 620 - MF
+    brand_type: manufacturer
+    class: Filled Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+glass sphere filled nylon:
+  aliases:
+  - glass sphere filled nylon
+  materials:
+  - brand_name: ALM PA 615-GS
+    brand_type: manufacturer
+    class: Filled Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 614-GS
+    brand_type: manufacturer
+    class: Filled Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 415 - GS
+    brand_type: manufacturer
+    class: Filled Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+flame retardant nylon:
+  aliases:
+  - flame retardant nylon
+  materials:
+  - brand_name: ALM PA 606-FR
+    brand_type: manufacturer
+    class: FR Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 2241 FR
+    brand_type: manufacturer
+    class: FR Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 2210 FR
+    brand_type: manufacturer
+    class: FR Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+polyamide:
+  aliases:
+  - polyamide
+  materials:
+  - brand_name: ALM PA 605-A
+    brand_type: manufacturer
+    class: Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: ALM PA 250
+    brand_type: manufacturer
+    class: Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: White Label PA 1101
+    brand_type: generic
+    class: Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: taulman3D Nylon 680
+    brand_type: manufacturer
+    class: Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+glass fiber reinforced nylon:
+  aliases:
+  - glass fiber reinforced nylon
+  materials:
+  - brand_name: ALM PA 3200 GF
+    brand_type: manufacturer
+    class: GF Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+polyamide 6:
+  aliases:
+  - polyamide 6
+  materials:
+  - brand_name: EOS PA 2105
+    brand_type: manufacturer
+    class: Nylon (PA6)
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: White Label Nylon 6
+    brand_type: generic
+    class: Nylon (PA6)
+    family: Engineering Thermoplastics
+    type: Polymers
+glass bead filled nylon:
+  aliases:
+  - glass bead filled nylon
+  materials:
+  - brand_name: White Label PA 12 glass beads
+    brand_type: generic
+    class: Filled Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+tool steel p20:
+  aliases:
+  - tool steel p20
+  materials:
+  - brand_name: EOS P20 Steel (3D Machined)
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Metals
+    type: Metals
+  - brand_name: EOS P20 Steel
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Metals
+    type: Metals
+  - brand_name: White Label Tool Steel P20
+    brand_type: generic
+    class: Tool Steel
+    family: Alloy Steels
+    type: Metals
+orthodontic tough resin:
+  aliases:
+  - orthodontic tough resin
+  materials:
+  - brand_name: EnvisionTEC Ortho Tough (Uncured)
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: EnvisionTEC Ortho Tough
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Thermoset Polymers
+    type: Polymers
+silicone elastomer:
+  aliases:
+  - silicone elastomer
+  materials:
+  - brand_name: Odontosil 50
+    brand_type: manufacturer
+    class: Silicone
+    family: Elastomeric Polymers
+    type: Elastomers
+  - brand_name: Carbon E-Silicone
+    brand_type: manufacturer
+    class: Silicone
+    family: Elastomer
+    type: Polymer
+nylon alloy:
+  aliases:
+  - nylon alloy
+  materials:
+  - brand_name: taulman3D Alloy 910
+    brand_type: manufacturer
+    class: Nylon Alloy
+    family: Engineering Thermoplastics
+    type: Polymers
+polyamide 6/6:
+  aliases:
+  - polyamide 6/6
+  materials:
+  - brand_name: White Label Nylon 6/6
+    brand_type: generic
+    class: Nylon (PA66)
+    family: Engineering Thermoplastics
+    type: Polymers
+carbon fiber reinforced nylon 12:
+  aliases:
+  - carbon fiber reinforced nylon 12
+  materials:
+  - brand_name: Stratasys Nylon 12CF
+    brand_type: manufacturer
+    class: CF Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+nylon 6/6 cf20:
+  aliases:
+  - nylon 6/6 cf20
+  materials:
+  - brand_name: White Label Nylon / 20% Chopped Carbon Fiber
+    brand_type: generic
+    class: Carbon Fiber Reinforced Nylon
+    family: Polyamides (Nylon)
+    type: Polymers
+nylon 6:
+  aliases:
+  - nylon 6
+  materials:
+  - brand_name: DSM Novamid ID 1070
+    brand_type: manufacturer
+    class: Nylon 6
+    family: Polyamides (Nylon)
+    type: Polymers
+  - brand_name: DSM Novamid ID 1030
+    brand_type: manufacturer
+    class: Nylon 6
+    family: Polyamides (Nylon)
+    type: Polymers
+  - brand_name: Markforged Nylon
+    brand_type: manufacturer
+    class: Nylon
+    family: Thermoplastic
+    type: Polymer
+  - brand_name: Fillamentum Nylon FX256
+    brand_type: manufacturer
+    class: Nylon
+    family: Thermoplastic
+    type: Polymer
+nylon 6 cf10:
+  aliases:
+  - nylon 6 cf10
+  materials:
+  - brand_name: DSM Novamid ID 1030 CF-10
+    brand_type: manufacturer
+    class: Carbon Fiber Reinforced Nylon
+    family: Polyamides (Nylon)
+    type: Polymers
+niobium (nb):
+  aliases:
+  - niobium (nb)
+  materials:
+  - brand_name: White Label Niobium
+    brand_type: generic
+    class: Refractory Metal
+    family: Specialty Metals
+    type: Metals
+tpu (95a):
+  aliases:
+  - tpu (95a)
+  materials:
+  - brand_name: NinjaTek Cheetah
+    brand_type: manufacturer
+    class: Thermoplastic Polyurethane
+    family: TPE
+    type: Elastomers
+nickel alloy in939:
+  aliases:
+  - nickel alloy in939
+  materials:
+  - brand_name: White Label Nickel Alloy IN939
+    brand_type: generic
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+inconel 718 plus:
+  aliases:
+  - inconel 718 plus
+  materials:
+  - brand_name: EOS Nickel Alloy 718 plus
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+nickel:
+  aliases:
+  - nickel
+  materials:
+  - brand_name: Generic Nickel
+    brand_type: manufacturer
+    class: Pure Metal
+    family: Base Metals
+    type: Metals
+natural rubber (nr):
+  aliases:
+  - natural rubber (nr)
+  materials:
+  - brand_name: White Label Natural Rubber
+    brand_type: generic
+    class: Natural Elastomer
+    family: Rubber
+    type: Elastomers
+nanosteel alloy j-11:
+  aliases:
+  - nanosteel alloy j-11
+  materials:
+  - brand_name: NanoSteel J-11
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Steel Alloys
+    type: Metals
+nanosteel alloy j-10:
+  aliases:
+  - nanosteel alloy j-10
+  materials:
+  - brand_name: NanoSteel J-10
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Steel Alloys
+    type: Metals
+mixed plastics:
+  aliases:
+  - mixed plastics
+  materials:
+  - brand_name: White Label Multiple Plastics (see Additional Assurances)
+    brand_type: generic
+    class: Multi-Material Polymer
+    family: Composite Materials
+    type: Polymers
+mixed metals:
+  aliases:
+  - mixed metals
+  materials:
+  - brand_name: Generic Multiple Metals
+    brand_type: manufacturer
+    class: Multi-Metal Alloy
+    family: Composite Metals
+    type: Metals
+molybdenum (mo):
+  aliases:
+  - molybdenum (mo)
+  materials:
+  - brand_name: White Label Molybdenum
+    brand_type: generic
+    class: Refractory Metal
+    family: Specialty Metals
+    type: Metals
+maraging steel 18ni-300:
+  aliases:
+  - maraging steel 18ni-300
+  materials:
+  - brand_name: EOS MaragingSteel MS1 (After age hardening)
+    brand_type: manufacturer
+    class: Maraging Steel
+    family: Tool Steels
+    type: Metals
+  - brand_name: EOS MaragingSteel MS1
+    brand_type: manufacturer
+    class: Maraging Steel
+    family: Tool Steels
+    type: Metals
+  - brand_name: EOS Maraging Steel MS1 EOS M400
+    brand_type: manufacturer
+    class: Maraging Steel
+    family: Tool Steels
+    type: Metals
+  - brand_name: EOS Maraging Steel MS1 EOS M290
+    brand_type: manufacturer
+    class: Maraging Steel
+    family: Tool Steels
+    type: Metals
+  - brand_name: EOS Maraging Steel MS1 EOS M270-280
+    brand_type: manufacturer
+    class: Maraging Steel
+    family: Tool Steels
+    type: Metals
+biocompatible photopolymer:
+  aliases:
+  - biocompatible photopolymer
+  materials:
+  - brand_name: Stratasys MED610
+    brand_type: manufacturer
+    class: Medical Resin
+    family: Photopolymers
+    type: Polymers
+hastelloy hybrid-bc1:
+  aliases:
+  - hastelloy hybrid-bc1
+  materials:
+  - brand_name: HASTELLOYÂ®HYBRID-BC1Â®alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+hastelloy c-2000:
+  aliases:
+  - hastelloy c-2000
+  materials:
+  - brand_name: HASTELLOYÂ®C-2000Â®alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+hastelloy c-22:
+  aliases:
+  - hastelloy c-22
+  materials:
+  - brand_name: HASTELLOYÂ®C-22Â®alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+ultimet alloy:
+  aliases:
+  - ultimet alloy
+  materials:
+  - brand_name: ULTIMETÂ®alloy
+    brand_type: manufacturer
+    class: Cobalt-Nickel Alloy
+    family: Cobalt Alloys
+    type: Metals
+hastelloy g-35:
+  aliases:
+  - hastelloy g-35
+  materials:
+  - brand_name: HASTELLOYÂ®G-35Â®alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+hastelloy c-4:
+  aliases:
+  - hastelloy c-4
+  materials:
+  - brand_name: HASTELLOYÂ®C-4 alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+hastelloy n:
+  aliases:
+  - hastelloy n
+  materials:
+  - brand_name: HASTELLOYÂ®N alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+hastelloy g-30:
+  aliases:
+  - hastelloy g-30
+  materials:
+  - brand_name: HASTELLOYÂ®G-30Â®alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+hastelloy c-22hs:
+  aliases:
+  - hastelloy c-22hs
+  materials:
+  - brand_name: HASTELLOYÂ®C-22HSÂ®alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+hastelloy b-3:
+  aliases:
+  - hastelloy b-3
+  materials:
+  - brand_name: HASTELLOYÂ®B-3Â®alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+inconel x-750:
+  aliases:
+  - inconel x-750
+  materials:
+  - brand_name: HAYNESÂ®X-750 alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+hastelloy w:
+  aliases:
+  - hastelloy w
+  materials:
+  - brand_name: HASTELLOYÂ®W alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+haynes ns-163:
+  aliases:
+  - haynes ns-163
+  materials:
+  - brand_name: HAYNESÂ®NS-163Â®alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+haynes hr-224:
+  aliases:
+  - haynes hr-224
+  materials:
+  - brand_name: HAYNESÂ®HR-224Â®alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+inconel 617:
+  aliases:
+  - inconel 617
+  materials:
+  - brand_name: HAYNESÂ®617 alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+haynes 263:
+  aliases:
+  - haynes 263
+  materials:
+  - brand_name: HAYNESÂ®263 alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+haynes 233:
+  aliases:
+  - haynes 233
+  materials:
+  - brand_name: "HAYNESÂ®233â\x84¢alloy"
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+multimet alloy:
+  aliases:
+  - multimet alloy
+  materials:
+  - brand_name: MULTIMETÂ®alloy
+    brand_type: manufacturer
+    class: Nickel-Based Superalloy
+    family: Nickel Alloys
+    type: Metals
+cobalt chromium molybdenum:
+  aliases:
+  - cobalt chromium molybdenum
+  materials:
+  - brand_name: Arcam CoCrMo (F75)
+    brand_type: manufacturer
+    class: Cobalt-Chrome Alloy
+    family: Cobalt Alloys
+    type: Metals
+titanium ti-6al-4v eli:
+  aliases:
+  - titanium ti-6al-4v eli
+  materials:
+  - brand_name: AP&C Ti64 grade 23 CL
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+tpu 95a:
+  aliases:
+  - tpu 95a
+  materials:
+  - brand_name: Lubrizol ESTANEÂ® 3D TPU M95A
+    brand_type: manufacturer
+    class: Thermoplastic Polyurethane
+    family: TPE
+    type: Elastomers
+polyetherimide (pei):
+  aliases:
+  - polyetherimide (pei)
+  materials:
+  - brand_name: Stratasys Ultem 1010
+    brand_type: manufacturer
+    class: High-Performance Thermoplastic
+    family: Engineering Plastics
+    type: Polymers
+fluoroelastomer (fkm):
+  aliases:
+  - fluoroelastomer (fkm)
+  materials:
+  - brand_name: White Label Viton Rubber
+    brand_type: generic
+    class: Fluoroelastomer
+    family: Rubber
+    type: Elastomers
+nylon 6 filled with carbon fiber:
+  aliases:
+  - nylon 6 filled with carbon fiber
+  materials:
+  - brand_name: MarkForged Onyx
+    brand_type: manufacturer
+    class: Carbon Fiber Reinforced Nylon
+    family: Polyamides (Nylon)
+    type: Polymers
+aramid fiber:
+  aliases:
+  - aramid fiber
+  materials:
+  - brand_name: DuPont Kevlar
+    brand_type: manufacturer
+    class: Aramid
+    family: High-Performance Fibers
+    type: Polymers
+  - brand_name: Markforged Kevlar
+    brand_type: manufacturer
+    class: Fiber Reinforcement
+    family: Composite
+    type: Polymer
+high strength high temperature fiberglass:
+  aliases:
+  - high strength high temperature fiberglass
+  materials:
+  - brand_name: MarkForged HSHT Fiberglass
+    brand_type: manufacturer
+    class: Fiberglass Composite
+    family: Fiber Reinforced Composites
+    type: Composites
+garolite g-10 (glass epoxy laminate):
+  aliases:
+  - garolite g-10 (glass epoxy laminate)
+  materials:
+  - brand_name: White Label Garolite (Grade 10)
+    brand_type: generic
+    class: Glass Epoxy Laminate
+    family: Thermoset Composites
+    type: Composites
+black photopolymer resin:
+  aliases:
+  - black photopolymer resin
+  materials:
+  - brand_name: Formlabs Black
+    brand_type: manufacturer
+    class: Rigid Photopolymer Resin
+    family: Thermoset Polymers
+    type: Polymers
+fiberglass:
+  aliases:
+  - fiberglass
+  materials:
+  - brand_name: White Label Fiberglass
+    brand_type: generic
+    class: Fiberglass
+    family: Fiber Reinforced Composites
+    type: Composites
+tool steel (dme standard):
+  aliases:
+  - tool steel (dme standard)
+  materials:
+  - brand_name: White Label DME Standard steel
+    brand_type: generic
+    class: Tool Steel
+    family: Carbon & Tool Steels
+    type: Metals
+digital abs:
+  aliases:
+  - digital abs
+  materials:
+  - brand_name: Stratasys Digital ABS Ivory
+    brand_type: manufacturer
+    class: Digital ABS Photopolymer
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Stratasys Digital ABS Green
+    brand_type: manufacturer
+    class: Digital ABS Photopolymer
+    family: Thermoset Polymers
+    type: Polymers
+cobalt chromium:
+  aliases:
+  - cobalt chromium
+  materials:
+  - brand_name: White Label Cobalt Chrome CoCr (C)
+    brand_type: generic
+    class: Cobalt-Chrome Alloy
+    family: Cobalt Alloys
+    type: Metals
+clay:
+  aliases:
+  - clay
+  materials:
+  - brand_name: White Label Clay
+    brand_type: generic
+    class: Ceramic
+    family: Ceramics
+    type: Ceramics
+carbon fiber:
+  aliases:
+  - carbon fiber
+  materials:
+  - brand_name: White Label Carbon Fiber
+    brand_type: generic
+    class: Carbon Fiber
+    family: Fiber Reinforced Composites
+    type: Composites
+polycarbonate (pc):
+  aliases:
+  - polycarbonate (pc)
+  materials:
+  - brand_name: LEXAN Homopolymer 940 Polycarbonate
+    brand_type: manufacturer
+    class: Polycarbonate
+    family: Engineering Plastics
+    type: Polymers
+  - brand_name: Stratasys Polycarbonate (PC)
+    brand_type: manufacturer
+    class: Polycarbonate
+    family: Thermoplastic
+    type: Polymer
+phenolic resin:
+  aliases:
+  - phenolic resin
+  materials:
+  - brand_name: White Label Bakelite
+    brand_type: generic
+    class: Phenolic Thermoset
+    family: Thermoset Plastics
+    type: Polymers
+aluminum a380:
+  aliases:
+  - aluminum a380
+  materials:
+  - brand_name: White Label Aluminum Alloy A380
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+aluminum 6061:
+  aliases:
+  - aluminum 6061
+  materials:
+  - brand_name: Generic Aluminum Alloy 6061
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: Generic Aluminum 6061
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum
+    type: Metal
+'zinc alloy #4':
+  aliases:
+  - 'zinc alloy #4'
+  materials:
+  - brand_name: 'White Label Zinc Alloy #4'
+    brand_type: generic
+    class: Zinc Alloy
+    family: Zinc Alloys
+    type: Metals
+aluminum a356:
+  aliases:
+  - aluminum a356
+  materials:
+  - brand_name: White Label A356 Aluminum Alloy-
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+cast polyurethane:
+  aliases:
+  - cast polyurethane
+  materials:
+  - brand_name: White Label Hei-Cast Polyurethane
+    brand_type: generic
+    class: Polyurethane
+    family: Thermoset Elastomers
+    type: Elastomers
+silica sand:
+  aliases:
+  - silica sand
+  materials:
+  - brand_name: White Label Sand
+    brand_type: generic
+    class: Sand
+    family: Mineral Materials
+    type: Ceramics
+copper (c110-type):
+  aliases:
+  - copper (c110-type)
+  materials:
+  - brand_name: White Label Red Copper
+    brand_type: generic
+    class: Copper
+    family: Copper Alloys
+    type: Metals
+ppo / ppe:
+  aliases:
+  - ppo / ppe
+  materials:
+  - brand_name: White Label Polyphenylene oxide (PPO/PPE)
+    brand_type: generic
+    class: Polyphenylene Ether
+    family: Engineering Plastics
+    type: Polymers
+glass-filled polypropylene:
+  aliases:
+  - glass-filled polypropylene
+  materials:
+  - brand_name: White Label Polypropylene / 20% Glass-Filled
+    brand_type: generic
+    class: Glass-Filled PP
+    family: Polyolefins
+    type: Polymers
+polyamide-imide:
+  aliases:
+  - polyamide-imide
+  materials:
+  - brand_name: White Label Polyamide-imide (PAI)
+    brand_type: generic
+    class: High-Performance Polymer
+    family: High Performance Plastics
+    type: Polymers
+nylon 6 gf30:
+  aliases:
+  - nylon 6 gf30
+  materials:
+  - brand_name: White Label Nylon 6 / 30% Glass Filled
+    brand_type: generic
+    class: Glass-Filled Nylon
+    family: Polyamides (Nylon)
+    type: Polymers
+magnesium az91d:
+  aliases:
+  - magnesium az91d
+  materials:
+  - brand_name: White Label Magnesium Alloy AZ91D
+    brand_type: generic
+    class: Magnesium Alloy
+    family: Magnesium Alloys
+    type: Metals
+abs-pc blend:
+  aliases:
+  - abs-pc blend
+  materials:
+  - brand_name: White Label ABS / 30% Polycarbonate
+    brand_type: generic
+    class: ABS-PC Alloy
+    family: Engineering Plastics
+    type: Polymers
+acrylonitrile butadiene styrene:
+  aliases:
+  - acrylonitrile butadiene styrene
+  materials:
+  - brand_name: Zortrax Z-ABS
+    brand_type: manufacturer
+    class: ABS
+    family: Engineering Plastics
+    type: Polymers
+casting wax:
+  aliases:
+  - casting wax
+  materials:
+  - brand_name: White Label Wax
+    brand_type: generic
+    class: Wax
+    family: Investment Casting Materials
+    type: Waxes
+rigid photopolymer:
+  aliases:
+  - rigid photopolymer
+  materials:
+  - brand_name: Stratasys VeroWhite
+    brand_type: manufacturer
+    class: PolyJet Rigid Resin
+    family: Thermoset Polymers
+    type: Polymers
+vero photopolymer resin:
+  aliases:
+  - vero photopolymer resin
+  materials:
+  - brand_name: Stratasys VeroMagenta RGD851
+    brand_type: manufacturer
+    class: Colored Rigid Resin
+    family: Photopolymer Resins
+    type: Polymers
+  - brand_name: Stratasys VeroGray RGD850
+    brand_type: manufacturer
+    class: Colored Rigid Resin
+    family: Photopolymer Resins
+    type: Polymers
+  - brand_name: Stratasys VeroCyan RGD841
+    brand_type: manufacturer
+    class: Colored Rigid Resin
+    family: Photopolymer Resins
+    type: Polymers
+  - brand_name: Stratasys VeroBlue RGD840
+    brand_type: manufacturer
+    class: Colored Rigid Resin
+    family: Photopolymer Resins
+    type: Polymers
+  - brand_name: Stratasys VeroBlackPlus RGD875
+    brand_type: manufacturer
+    class: High Strength Resin
+    family: Photopolymer Resins
+    type: Polymers
+  - brand_name: Stratasys VeroBlack
+    brand_type: manufacturer
+    class: Colored Rigid Resin
+    family: Photopolymer Resins
+    type: Polymers
+medical photopolymer resin:
+  aliases:
+  - medical photopolymer resin
+  materials:
+  - brand_name: Stratasys VeroGlaze MED620
+    brand_type: manufacturer
+    class: Medical Resin
+    family: Biocompatible Polymers
+    type: Polymers
+dental photopolymer resin:
+  aliases:
+  - dental photopolymer resin
+  materials:
+  - brand_name: Stratasys VeroDentPlus MED690
+    brand_type: manufacturer
+    class: Dental Resin
+    family: Biocompatible Polymers
+    type: Polymers
+  - brand_name: Stratasys VeroDent MED670
+    brand_type: manufacturer
+    class: Dental Resin
+    family: Biocompatible Polymers
+    type: Polymers
+cemented carbide:
+  aliases:
+  - cemented carbide
+  materials:
+  - brand_name: White Label Veloxint HardMetal
+    brand_type: generic
+    class: Hardmetal
+    family: Carbides
+    type: Metals
+nickel-based superalloy:
+  aliases:
+  - nickel-based superalloy
+  materials:
+  - brand_name: Veca Alloy Inc. Vecalloy 800
+    brand_type: manufacturer
+    class: Superalloy
+    family: Nickel Alloys
+    type: Metals
+  - brand_name: Veca Alloy Inc. Vecalloy 700
+    brand_type: manufacturer
+    class: Superalloy
+    family: Nickel Alloys
+    type: Metals
+  - brand_name: Veca Alloy Inc. Vecalloy 600
+    brand_type: manufacturer
+    class: Superalloy
+    family: Nickel Alloys
+    type: Metals
+vanadium:
+  aliases:
+  - vanadium
+  materials:
+  - brand_name: White Label Vanadium
+    brand_type: generic
+    class: Pure Metal
+    family: Transition Metals
+    type: Metals
+urethane methacrylate:
+  aliases:
+  - urethane methacrylate
+  materials:
+  - brand_name: White Label Urethane Metacrylate (UMA)
+    brand_type: generic
+    class: Methacrylate Resin
+    family: Photopolymer Resins
+    type: Polymers
+pei 9085:
+  aliases:
+  - pei 9085
+  materials:
+  - brand_name: White Label Ultem 9085
+    brand_type: generic
+    class: PEI
+    family: High Performance Thermoplastics
+    type: Polymers
+  - brand_name: Stratasys Ultem 9085
+    brand_type: manufacturer
+    class: Polyetherimide
+    family: High Performance Thermoplastic
+    type: Polymer
+pei 2300:
+  aliases:
+  - pei 2300
+  materials:
+  - brand_name: White Label Ultem 2300
+    brand_type: generic
+    class: PEI
+    family: High Performance Thermoplastics
+    type: Polymers
+pei 1000:
+  aliases:
+  - pei 1000
+  materials:
+  - brand_name: White Label Ultem 1000
+    brand_type: generic
+    class: PEI
+    family: High Performance Thermoplastics
+    type: Polymers
+flame retardant abs:
+  aliases:
+  - flame retardant abs
+  materials:
+  - brand_name: Stratasys UABS FR3
+    brand_type: manufacturer
+    class: FR ABS
+    family: Commodity Thermoplastics
+    type: Polymers
+tungsten:
+  aliases:
+  - tungsten
+  materials:
+  - brand_name: White Label Tungsten W1
+    brand_type: generic
+    class: Pure Metal
+    family: Refractory Metals
+    type: Metals
+  - brand_name: White Label Tungsten
+    brand_type: generic
+    class: Pure Metal
+    family: Refractory Metals
+    type: Metals
+tungsten heavy alloy:
+  aliases:
+  - tungsten heavy alloy
+  materials:
+  - brand_name: White Label Tungsten Heavy Alloy
+    brand_type: generic
+    class: Tungsten Alloy
+    family: Refractory Metals
+    type: Metals
+tungsten carbide:
+  aliases:
+  - tungsten carbide
+  materials:
+  - brand_name: White Label Tungsten Carbide
+    brand_type: generic
+    class: Carbide
+    family: Carbides
+    type: Metals
+tungsten alloy:
+  aliases:
+  - tungsten alloy
+  materials:
+  - brand_name: White Label Tungsten A95
+    brand_type: generic
+    class: Tungsten Alloy
+    family: Refractory Metals
+    type: Metals
+polyamide-imide (pai):
+  aliases:
+  - polyamide-imide (pai)
+  materials:
+  - brand_name: White Label Torlon (Polyamide-imide)
+    brand_type: generic
+    class: PAI
+    family: High Performance Polymers
+    type: Polymers
+tool steel s7:
+  aliases:
+  - tool steel s7
+  materials:
+  - brand_name: White Label Tool Steel S7
+    brand_type: generic
+    class: Tool Steel
+    family: Alloy Steels
+    type: Metals
+tool steel h13:
+  aliases:
+  - tool steel h13
+  materials:
+  - brand_name: White Label Tool Steel H13
+    brand_type: generic
+    class: Tool Steel
+    family: Alloy Steels
+    type: Metals
+  - brand_name: Markforged H13 - EN 1.2344 Tool Steel
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Tool Steels
+    type: Metals
+  - brand_name: SLM Solutions H13 - EN 1.2344 Tool Steel
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Tool Steels
+    type: Metals
+tool steel d2:
+  aliases:
+  - tool steel d2
+  materials:
+  - brand_name: White Label Tool Steel D2
+    brand_type: generic
+    class: Tool Steel
+    family: Alloy Steels
+    type: Metals
+  - brand_name: Markforged D2- UNS T30402 Tool Steel
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Tool Steels
+    type: Metals
+tool steel a2:
+  aliases:
+  - tool steel a2
+  materials:
+  - brand_name: White Label Tool Steel A2
+    brand_type: generic
+    class: Tool Steel
+    family: Alloy Steels
+    type: Metals
+  - brand_name: Markforged A2- UNS T30102 Tool Steel
+    brand_type: manufacturer
+    class: Tool Steel
+    family: Tool Steels
+    type: Metals
+maraging steel 1.2709:
+  aliases:
+  - maraging steel 1.2709
+  materials:
+  - brand_name: White Label Tool Steel 1.2709
+    brand_type: generic
+    class: Maraging Steel
+    family: Alloy Steels
+    type: Metals
+  - brand_name: SLM Solutions M300 - EN 1.2709 Tool Steel
+    brand_type: manufacturer
+    class: Maraging Steel
+    family: Tool Steels
+    type: Metals
+ti-15v-3cr-3sn-3al:
+  aliases:
+  - ti-15v-3cr-3sn-3al
+  materials:
+  - brand_name: White Label Titanium 15-3-3-3
+    brand_type: generic
+    class: Beta Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+carbon fiber composite:
+  aliases:
+  - carbon fiber composite
+  materials:
+  - brand_name: Carbon Fiber XG-5000
+    brand_type: manufacturer
+    class: Carbon Fiber
+    family: Fiber Reinforced Composites
+    type: Composites
+17-4 ph stainless steel:
+  aliases:
+  - 17-4 ph stainless steel
+  materials:
+  - brand_name: Markforged 17-4 Stainless Steel
+    brand_type: manufacturer
+    class: Precipitation Hardening SS
+    family: Stainless Steels
+    type: Metals
+nylon 6 + carbon fiber:
+  aliases:
+  - nylon 6 + carbon fiber
+  materials:
+  - brand_name: Markforged Onyx ESD
+    brand_type: manufacturer
+    class: ESD Nylon Composite
+    family: Fiber Reinforced Thermoplastics
+    type: Polymers
+  - brand_name: Markforged Onyx FR
+    brand_type: manufacturer
+    class: Flame Retardant Composite
+    family: Fiber Reinforced Thermoplastics
+    type: Polymers
+lead:
+  aliases:
+  - lead
+  materials:
+  - brand_name: Lead
+    brand_type: manufacturer
+    class: Pure Metal
+    family: Heavy Metals
+    type: Metals
+carbon steel 45:
+  aliases:
+  - carbon steel 45
+  materials:
+  - brand_name: Low Carbon Steel 45
+    brand_type: manufacturer
+    class: Low Carbon Steel
+    family: Carbon Steels
+    type: Metals
+thermoplastic polyurethane (tpu):
+  aliases:
+  - thermoplastic polyurethane (tpu)
+  materials:
+  - brand_name: BigRep TPU
+    brand_type: manufacturer
+    class: TPU
+    family: TPE
+    type: Elastomers
+nylon 6/66:
+  aliases:
+  - nylon 6/66
+  materials:
+  - brand_name: BigRep PA6/66
+    brand_type: manufacturer
+    class: Polyamide
+    family: Engineering Thermoplastics
+    type: Polymers
+high temperature polymer:
+  aliases:
+  - high temperature polymer
+  materials:
+  - brand_name: BigRep HI-temp
+    brand_type: manufacturer
+    class: High Temp Polymer
+    family: High Performance Thermoplastics
+    type: Polymers
+  - brand_name: BigRep Pro HT
+    brand_type: manufacturer
+    class: High Temp Polymer
+    family: High Performance Thermoplastics
+    type: Polymers
+bvoh:
+  aliases:
+  - bvoh
+  materials:
+  - brand_name: BigRep BVOH
+    brand_type: manufacturer
+    class: Water Soluble Support Polymer
+    family: Support Materials
+    type: Polymers
+pla-based composite:
+  aliases:
+  - pla-based composite
+  materials:
+  - brand_name: BigRep PLX
+    brand_type: manufacturer
+    class: PLA Composite
+    family: Commodity Thermoplastics
+    type: Polymers
+petg + carbon fiber:
+  aliases:
+  - petg + carbon fiber
+  materials:
+  - brand_name: BigRep PET-CF
+    brand_type: manufacturer
+    class: Carbon Fiber Reinforced PET
+    family: Fiber Reinforced Thermoplastics
+    type: Polymers
+high temp polymer + carbon fiber:
+  aliases:
+  - high temp polymer + carbon fiber
+  materials:
+  - brand_name: BigRep HI-temp CF
+    brand_type: manufacturer
+    class: Carbon Fiber Reinforced High Temp Polymer
+    family: Fiber Reinforced Thermoplastics
+    type: Polymers
+pla:
+  aliases:
+  - pla
+  materials:
+  - brand_name: BigRep PLA
+    brand_type: manufacturer
+    class: PLA
+    family: Bioplastics
+    type: Polymers
+nylon 12:
+  aliases:
+  - nylon 12
+  materials:
+  - brand_name: White Label Nylon 12 (Filament)
+    brand_type: generic
+    class: Polyamide
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: EOS PA 2201
+    brand_type: manufacturer
+    class: Polyamide
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: EOS PA 2200
+    brand_type: manufacturer
+    class: Polyamide
+    family: Engineering Thermoplastics
+    type: Polymers
+  - brand_name: White Label AM Nylon 12 (Powder)
+    brand_type: generic
+    class: Polyamide
+    family: Engineering Thermoplastics
+    type: Polymers
+tough polypropylene-like resin:
+  aliases:
+  - tough polypropylene-like resin
+  materials:
+  - brand_name: Formlabs Durable Resin
+    brand_type: manufacturer
+    class: Tough Resin
+    family: Photopolymer Resins
+    type: Polymers
+polyurethane elastomer:
+  aliases:
+  - polyurethane elastomer
+  materials:
+  - brand_name: BJB TC-5060 A/B
+    brand_type: manufacturer
+    class: Casting Polyurethane
+    family: Thermoset Polymers
+    type: Polymers
+  - brand_name: Carbon EPU 41
+    brand_type: manufacturer
+    class: Polyurethane
+    family: Elastomer
+    type: Polymer
+  - brand_name: Carbon EPU 40
+    brand_type: manufacturer
+    class: Polyurethane
+    family: Elastomer
+    type: Polymer
+carbonyl iron:
+  aliases:
+  - carbonyl iron
+  materials:
+  - brand_name: Chengdu Huarui Stainless Carbonyl Iron (Powder)
+    brand_type: manufacturer
+    class: Iron Powder
+    family: Iron Alloys
+    type: Metals
+stainless steel 430:
+  aliases:
+  - stainless steel 430
+  materials:
+  - brand_name: Chengdu Huarui Stainless Steel 430
+    brand_type: manufacturer
+    class: Ferritic Stainless Steel
+    family: Stainless Steels
+    type: Metals
+duplex stainless steel 2204:
+  aliases:
+  - duplex stainless steel 2204
+  materials:
+  - brand_name: White Label Stainless Steel 2204
+    brand_type: generic
+    class: Duplex Stainless Steel
+    family: Stainless Steels
+    type: Metals
+stainless steel 203:
+  aliases:
+  - stainless steel 203
+  materials:
+  - brand_name: White Label Stainless Steel 203
+    brand_type: generic
+    class: Austenitic Stainless Steel
+    family: Stainless Steels
+    type: Metals
+polyolefin elastomer:
+  aliases:
+  - polyolefin elastomer
+  materials:
+  - brand_name: Duraflex®
+    brand_type: manufacturer
+    class: Flexible Polymer
+    family: TPE
+    type: Elastomers
+silicone rubber 70a:
+  aliases:
+  - silicone rubber 70a
+  materials:
+  - brand_name: San Draw Sil 70 Silicone
+    brand_type: manufacturer
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomers
+silicone rubber 50a:
+  aliases:
+  - silicone rubber 50a
+  materials:
+  - brand_name: San Draw Sil 50 Silicone
+    brand_type: manufacturer
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomers
+  - brand_name: ACEO Silicone GP 50
+    brand_type: manufacturer
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomers
+silicone rubber 28a:
+  aliases:
+  - silicone rubber 28a
+  materials:
+  - brand_name: San Draw Sil 28 Silicone
+    brand_type: manufacturer
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomers
+silicone rubber 18a:
+  aliases:
+  - silicone rubber 18a
+  materials:
+  - brand_name: San Draw Sil 18 Silicone
+    brand_type: manufacturer
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomers
+silicone rubber 60a:
+  aliases:
+  - silicone rubber 60a
+  materials:
+  - brand_name: ACEO Silicone GP 60
+    brand_type: manufacturer
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomers
+silicone rubber 40a:
+  aliases:
+  - silicone rubber 40a
+  materials:
+  - brand_name: ACEO Silicone GP 40
+    brand_type: manufacturer
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomers
+silicone rubber 30a:
+  aliases:
+  - silicone rubber 30a
+  materials:
+  - brand_name: ACEO Silicone GP 30
+    brand_type: manufacturer
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomers
+silicone rubber 20a:
+  aliases:
+  - silicone rubber 20a
+  materials:
+  - brand_name: ACEO Silicone GP 20
+    brand_type: manufacturer
+    class: Silicone Rubber
+    family: Elastomers
+    type: Elastomers
+flexible photopolymer 80a:
+  aliases:
+  - flexible photopolymer 80a
+  materials:
+  - brand_name: Formlabs Flexible 80A Resin
+    brand_type: manufacturer
+    class: Flexible Resin
+    family: Photopolymer Resins
+    type: Elastomers
+epdm rubber:
+  aliases:
+  - epdm rubber
+  materials:
+  - brand_name: White Label Ethylene Propylene Diene Monomer Rubber (EPDM)
+    brand_type: generic
+    class: Synthetic Rubber
+    family: Elastomers
+    type: Elastomers
+polypropylene:
+  aliases:
+  - polypropylene
+  materials:
+  - brand_name: HP 3D High Reusability PP
+    brand_type: manufacturer
+    class: Polypropylene
+    family: Commodity Thermoplastics
+    type: Polymers
+nylon 11:
+  aliases:
+  - nylon 11
+  materials:
+  - brand_name: Farsoon FS 4100PA - Nylon PA11
+    brand_type: manufacturer
+    class: Polyamide
+    family: Engineering Thermoplastics
+    type: Polymers
+aluminum alsi7mg0.6:
+  aliases:
+  - aluminum alsi7mg0.6
+  materials:
+  - brand_name: Velo3D Aluminum AlF357 AlSi7Mg0.6 - UNS AC-42200
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: AP&C Aluminum AlF357 AlSi7Mg0.6 - UNS AC-42200
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: EOS Aluminum AlF357 AlSi7Mg0.6 - UNS AC-42200
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+glass-ceramic:
+  aliases:
+  - glass-ceramic
+  materials:
+  - brand_name: Glass-Ceramic
+    brand_type: manufacturer
+    class: Glass-Ceramic
+    family: Ceramics
+    type: Ceramics
+chlorite clay:
+  aliases:
+  - chlorite clay
+  materials:
+  - brand_name: Chlorite Clay
+    brand_type: manufacturer
+    class: Clay Mineral
+    family: Natural Materials
+    type: Ceramics
+illite clay:
+  aliases:
+  - illite clay
+  materials:
+  - brand_name: Illite Clay
+    brand_type: manufacturer
+    class: Clay Mineral
+    family: Natural Materials
+    type: Ceramics
+smectite clay:
+  aliases:
+  - smectite clay
+  materials:
+  - brand_name: Montmorillonite-smectite Clay
+    brand_type: manufacturer
+    class: Clay Mineral
+    family: Natural Materials
+    type: Ceramics
+kaolinite clay:
+  aliases:
+  - kaolinite clay
+  materials:
+  - brand_name: Kaolinite Clay
+    brand_type: manufacturer
+    class: Clay Mineral
+    family: Natural Materials
+    type: Ceramics
+mixed clay:
+  aliases:
+  - mixed clay
+  materials:
+  - brand_name: Quaternary Clay
+    brand_type: manufacturer
+    class: Clay Mineral
+    family: Natural Materials
+    type: Ceramics
+nylon-based composite:
+  aliases:
+  - nylon-based composite
+  materials:
+  - brand_name: MatterHackers PRO Series RYNO
+    brand_type: manufacturer
+    class: Reinforced Nylon
+    family: Engineering Thermoplastics
+    type: Polymers
+tough pla:
+  aliases:
+  - tough pla
+  materials:
+  - brand_name: Ultimaker Tough PLA
+    brand_type: manufacturer
+    class: Modified PLA
+    family: Bioplastics
+    type: Polymers
+titanium ti5553:
+  aliases:
+  - titanium ti5553
+  materials:
+  - brand_name: AP&C Titanium Ti5553 -Grade 6 - UNS
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+titanium ti6al4v:
+  aliases:
+  - titanium ti6al4v
+  materials:
+  - brand_name: Markforged Titanium Ti6Al4V -Grade 5- UNS R56400
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+  - brand_name: AP&C Titanium TI6Al4V -Grade 5- UNS R56400
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+copper c10000:
+  aliases:
+  - copper c10000
+  materials:
+  - brand_name: Markforged Cu Copper - UNS C10000
+    brand_type: manufacturer
+    class: Copper
+    family: Copper Alloys
+    type: Metals
+  - brand_name: EOS Cu Copper - UNS C10000
+    brand_type: manufacturer
+    class: Copper
+    family: Copper Alloys
+    type: Metals
+titanium ti6242:
+  aliases:
+  - titanium ti6242
+  materials:
+  - brand_name: AP&C Titanium Ti6242 -Grade 6 - UNS R54620
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+titanium ti6al4v eli:
+  aliases:
+  - titanium ti6al4v eli
+  materials:
+  - brand_name: AP&C Titanium Ti64ELI -Grade 23 - UNS R56401
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+  - brand_name: SLM Solutions Ti6Al4V ELI (Grade 23)
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+tungsten w1:
+  aliases:
+  - tungsten w1
+  materials:
+  - brand_name: EOS Tungsten W1
+    brand_type: manufacturer
+    class: Tungsten
+    family: Refractory Metals
+    type: Metals
+stainless steel 15-4ph:
+  aliases:
+  - stainless steel 15-4ph
+  materials:
+  - brand_name: White Label Stainless Steel 15-4 (Powder)
+    brand_type: generic
+    class: Precipitation Hardening Stainless Steel
+    family: Stainless Steels
+    type: Metals
+copper chromium zirconium:
+  aliases:
+  - copper chromium zirconium
+  materials:
+  - brand_name: EOS Copper CuCrZr - UNS C18150
+    brand_type: manufacturer
+    class: Copper Alloy
+    family: Copper Alloys
+    type: Metals
+aluminum alsi10mg:
+  aliases:
+  - aluminum alsi10mg
+  materials:
+  - brand_name: White Label AM AlSi10Mg (Powder)
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+  - brand_name: Concept Laser CL Aluminum AlSi10Mg
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum
+    type: Metal
+  - brand_name: SLM Solutions Aluminum AlSi10Mg
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum
+    type: Metal
+cuni2sicr:
+  aliases:
+  - cuni2sicr
+  materials:
+  - brand_name: SLM Solutions CuNi2SiCr (Copper Alloy)
+    brand_type: manufacturer
+    class: Copper Alloy
+    family: Copper Alloys
+    type: Metals
+bronze cusn10:
+  aliases:
+  - bronze cusn10
+  materials:
+  - brand_name: SLM Solutions CuSn10 (Copper-Tin Alloy)
+    brand_type: manufacturer
+    class: Bronze
+    family: Copper Alloys
+    type: Metals
+cobalt chromium alloy:
+  aliases:
+  - cobalt chromium alloy
+  materials:
+  - brand_name: SLM Solutions CoCr28Mo6 (Cobalt Alloy)
+    brand_type: manufacturer
+    class: Cobalt Alloy
+    family: Cobalt Alloys
+    type: Metals
+stainless steel 15-5ph:
+  aliases:
+  - stainless steel 15-5ph
+  materials:
+  - brand_name: SLM Solutions Stainless Steel 15-5PH (Steel Alloy)
+    brand_type: manufacturer
+    class: Precipitation Hardening Stainless Steel
+    family: Stainless Steels
+    type: Metals
+inconel 939:
+  aliases:
+  - inconel 939
+  materials:
+  - brand_name: SLM Solutions IN 939 (Nickel Alloy)
+    brand_type: manufacturer
+    class: Nickel Alloy
+    family: Nickel Alloys
+    type: Metals
+titanium ta15:
+  aliases:
+  - titanium ta15
+  materials:
+  - brand_name: SLM Solutions TA15 (Ti alloy)
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium Alloys
+    type: Metals
+aluminum alsicu3:
+  aliases:
+  - aluminum alsicu3
+  materials:
+  - brand_name: SLM Solutions Aluminum AlSiCu3
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+aluminum alsi6mg0.6:
+  aliases:
+  - aluminum alsi6mg0.6
+  materials:
+  - brand_name: SLM Solutions Aluminum AlSi6Mg0.6
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+aluminum a383:
+  aliases:
+  - aluminum a383
+  materials:
+  - brand_name: White Label Aluminum A383 (ADC12)
+    brand_type: generic
+    class: Aluminum Alloy
+    family: Aluminum Alloys
+    type: Metals
+polyphenylene oxide (ppo):
+  aliases:
+  - polyphenylene oxide (ppo)
+  materials:
+  - brand_name: White Label Polyphenylene Oxide (PPO)
+    brand_type: generic
+    class: Engineering Thermoplastic
+    family: Thermoplastic
+    type: Polymer
+polyphenylene ether (ppe):
+  aliases:
+  - polyphenylene ether (ppe)
+  materials:
+  - brand_name: White Label Polyphenylene Ether (PPE)
+    brand_type: generic
+    class: Engineering Thermoplastic
+    family: Thermoplastic
+    type: Polymer
+pa12 glass bead filled:
+  aliases:
+  - pa12 glass bead filled
+  materials:
+  - brand_name: HP 3D High Reusability PA 12 Glass Beads
+    brand_type: manufacturer
+    class: Nylon
+    family: Thermoplastic
+    type: Polymer
+polycarbonate (pc-iso):
+  aliases:
+  - polycarbonate (pc-iso)
+  materials:
+  - brand_name: Stratasys PC-ISO
+    brand_type: manufacturer
+    class: Polycarbonate
+    family: Thermoplastic
+    type: Polymer
+ti-6al-4v eli (grade 23):
+  aliases:
+  - ti-6al-4v eli (grade 23)
+  materials:
+  - brand_name: Arcam AB Ti6Al4V ELI
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium
+    type: Metal
+ti-6al-4v (grade 5):
+  aliases:
+  - ti-6al-4v (grade 5)
+  materials:
+  - brand_name: Concept Laser CLTi6Al4V Titanium Alloy
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium
+    type: Metal
+  - brand_name: Arcam AB Ti6Al4V Grade 5
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium
+    type: Metal
+  - brand_name: EOS Ti6Al4V Grade 5
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium
+    type: Metal
+  - brand_name: EOS Titanium Ti64 for EOSINT M 270 Systems (Titanium Version)
+    brand_type: manufacturer
+    class: Titanium Alloy
+    family: Titanium
+    type: Metal
+aluminum alsi12mg:
+  aliases:
+  - aluminum alsi12mg
+  materials:
+  - brand_name: EOS Aluminum AlSi12Mg
+    brand_type: manufacturer
+    class: Aluminum Alloy
+    family: Aluminum
+    type: Metal
+stainless steel cx:
+  aliases:
+  - stainless steel cx
+  materials:
+  - brand_name: White LabelStainless Steel CX
+    brand_type: generic
+    class: Stainless Steel
+    family: Stainless Steel
+    type: Metal
+technical ceramic:
+  aliases:
+  - technical ceramic
+  materials:
+  - brand_name: White Label Ceramic
+    brand_type: generic
+    class: Ceramic
+    family: Ceramic
+    type: Ceramic
+niobium c-103:
+  aliases:
+  - niobium c-103
+  materials:
+  - brand_name: Generic Niobium C-103 Alloy
+    brand_type: manufacturer
+    class: Refractory Alloy
+    family: Niobium Alloy
+    type: Metal
+flexible photopolymer:
+  aliases:
+  - flexible photopolymer
+  materials:
+  - brand_name: Stratasys Agilus 30 FLX 985
+    brand_type: manufacturer
+    class: Photopolymer
+    family: Elastomer
+    type: Polymer
+glass fiber:
+  aliases:
+  - glass fiber
+  materials:
+  - brand_name: Markforged Fiberglass
+    brand_type: manufacturer
+    class: Fiber Reinforcement
+    family: Composite
+    type: Polymer
+high temp resin:
+  aliases:
+  - high temp resin
+  materials:
+  - brand_name: Formlabs High Temp
+    brand_type: manufacturer
+    class: Photopolymer Resin
+    family: Thermoset
+    type: Polymer
+dental lt resin:
+  aliases:
+  - dental lt resin
+  materials:
+  - brand_name: Formlabs Dental LT Clear
+    brand_type: manufacturer
+    class: Biocompatible Resin
+    family: Thermoset
+    type: Polymer
+carbon fiber nylon:
+  aliases:
+  - carbon fiber nylon
+  materials:
+  - brand_name: Fillamentum Nylon CF15 Carbon
+    brand_type: manufacturer
+    class: Fiber Reinforced Nylon
+    family: Composite Thermoplastic
+    type: Polymer
+tpu 92a:
+  aliases:
+  - tpu 92a
+  materials:
+  - brand_name: Fillamentum Flexfill TPU 92A
+    brand_type: manufacturer
+    class: Thermoplastic Polyurethane
+    family: Elastomer
+    type: Polymer
+tpe 96a:
+  aliases:
+  - tpe 96a
+  materials:
+  - brand_name: Fillamentum Flexfill TPE 96A
+    brand_type: manufacturer
+    class: Thermoplastic Elastomer
+    family: Elastomer
+    type: Polymer
+tpe 90a:
+  aliases:
+  - tpe 90a
+  materials:
+  - brand_name: Fillamentum Flexfill TPE 90A
+    brand_type: manufacturer
+    class: Thermoplastic Elastomer
+    family: Elastomer
+    type: Polymer
+cpe:
+  aliases:
+  - cpe
+  materials:
+  - brand_name: Fillamentum CPE HG100
+    brand_type: manufacturer
+    class: Copolyester
+    family: Thermoplastic
+    type: Polymer
+acrylate resin:
+  aliases:
+  - acrylate resin
+  materials:
+  - brand_name: Carbon Prototyping Acrylate
+    brand_type: manufacturer
+    class: Photopolymer Resin
+    family: Thermoset
+    type: Polymer

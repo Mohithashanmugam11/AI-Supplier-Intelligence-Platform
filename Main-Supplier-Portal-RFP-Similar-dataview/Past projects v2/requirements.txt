@@ -1,0 +1,10 @@
+opencv-python
+numpy
+pinecone-client
+Pillow
+fastapi
+uvicorn[standard]
+python-multipart
+trimesh
+pymupdf
+pypdf

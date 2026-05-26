@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        font-family: "DM Sans", sans-serif;
+        background: #f4f5f8;
+      }
+
+      /* TOP NAVBAR */
+      .navbar {
+        height: 56px;
+        background: #0f1f2e;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 25px;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .logo img {
+        height: 28px;
+      }
+
+      .breadcrumb {
+        font-size: 11px;
+        opacity: 0.8;
+        letter-spacing: 0.5px;
+      }
+
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 12px;
+      }
+
+      .status {
+        color: #ff6b6b;
+      }
+
+      .new-btn {
+        border: 1px solid #fff;
+        padding: 6px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      /* CENTER LOGIN */
+      .container {
+        height: calc(100vh - 56px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* CARD */
+      .card {
+        background: #fff;
+        width: 400px;
+        padding: 40px;
+        border-radius: 16px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        text-align: center;
+      }
+
+      .card img {
+        height: 40px;
+        margin-bottom: 10px;
+      }
+
+      .divider {
+        width: 40px;
+        height: 2px;
+        background: #dbe3ff;
+        margin: 15px auto;
+      }
+
+      h2 {
+        margin: 10px 0;
+      }
+
+      .desc {
+        font-size: 13px;
+        color: #666;
+        margin-bottom: 25px;
+      }
+
+      /* INPUT */
+      input {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1.5px solid #ccd2e0;
+        margin-bottom: 15px;
+        font-size: 14px;
+        outline: none;
+      }
+
+      input:focus {
+        border-color: #0f1f2e;
+      }
+
+      /* BUTTON */
+      button {
+        width: 100%;
+        padding: 12px;
+        background: #0f1f2e;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #0f1f2e;
+      }
+
+      .error {
+        color: red;
+        font-size: 12px;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="logo">
+        <img src="static/logo.png" />
+        <b>Trustbridge</b>
+      </div>
+
+      <div class="right">
+        <span class="status">● Server offline</span>
+        <div class="new-btn">← New</div>
+      </div>
+    </div>
+
+    <!-- LOGIN -->
+    <div class="container">
+      <div class="card">
+        <img src="static/logo.png" />
+
+        <div class="divider"></div>
+
+        <h2>SUPPLIER INGESTION</h2>
+
+        <div class="desc">
+          Enter your registered email to access the project knowledge.
+        </div>
+
+        <input type="email" id="email" placeholder="you@company.com" />
+
+        <button onclick="login()">Continue →</button>
+
+        <div id="error" class="error"></div>
+      </div>
+    </div>
+
+    <script>
+      function login() {
+        let email = document.getElementById("email").value;
+
+        if (email === "") {
+          document.getElementById("error").innerText = "Please enter email";
+          return;
+        }
+
+        localStorage.setItem("userEmail", email);
+
+        // redirect to your EXISTING UI
+        window.location.href = "ui.html";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,682 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .project-card {
+        background: #fff;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+        border: 1px solid #e5e7eb;
+      }
+
+      .parts-section {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+      }
+
+      .part-card {
+        background: #f9fafb;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid #e5e7eb;
+      }
+      body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background: #f6f7f9;
+      }
+
+      .navbar {
+        background: #0f1f2e;
+        color: #fff;
+        padding: 12px 30px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .btn {
+        background: #c47a2c;
+        color: #fff;
+        border: none;
+        padding: 8px 14px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      .container {
+        width: 88%;
+        margin: 30px auto;
+      }
+
+      .tabs {
+        display: flex;
+        gap: 25px;
+        border-bottom: 1px solid #ddd;
+        margin: 20px 0;
+      }
+
+      .tab {
+        padding: 10px 0;
+        cursor: pointer;
+        color: #777;
+      }
+
+      .tab.active {
+        border-bottom: 2px solid #c47a2c;
+        color: #000;
+      }
+
+      .card {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 10px;
+        padding: 16px;
+        margin-bottom: 15px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+      }
+      .lesson:hover {
+        transform: translateY(-2px);
+        transition: 0.2s;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      }
+
+      .box {
+        background: #f9fafb;
+        padding: 8px;
+        border-radius: 6px;
+        margin-top: 4px;
+      }
+      .project-card {
+        background: #fff;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 12px;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      }
+      .part-card:hover {
+        transform: translateY(-2px);
+        transition: 0.2s;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      }
+      .lesson {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        padding: 12px;
+        border-radius: 8px;
+        margin: 10px 0;
+      }
+      .part-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .tab-content {
+        display: none;
+      }
+
+      .tab-content.active {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div>Trustbridge</div>
+      <button class="btn" id="actionBtn">+ Add Project</button>
+    </div>
+
+    <div class="container">
+      <h2>Project & Knowledge Ingestion</h2>
+
+      <div class="tabs">
+        <div class="tab active" onclick="showTab('dashboard', this)">
+          Dashboard
+        </div>
+        <div class="tab" onclick="showTab('projects', this)">Projects</div>
+        <div class="tab" onclick="showTab('mfg', this)">MFG Lessons</div>
+        <div class="tab" onclick="showTab('quoting', this)">Quoting</div>
+      </div>
+
+      <!-- DASHBOARD -->
+      <div id="dashboard" class="tab-content active"></div>
+
+      <!-- PROJECTS -->
+      <div id="projects" class="tab-content">
+        <!-- FILTER BAR -->
+        <div style="display: flex; gap: 15px; margin-bottom: 15px">
+          <select id="industryFilter" style="padding: 6px; border-radius: 6px">
+            <option value="">All Industries</option>
+            <option value="Automotive">Automotive</option>
+            <option value="Aerospace / Defense">Aerospace / Defense</option>
+            <option value="Industrial / General">Industrial / General</option>
+          </select>
+
+          <select id="processFilter" style="padding: 6px; border-radius: 6px">
+            <option value="">All Processes</option>
+            <option value="CNC Turning">CNC Turning</option>
+            <option value="3D Printing">3D Printing</option>
+          </select>
+
+          <button onclick="applyFilters()" class="btn">Apply</button>
+          <button onclick="resetFilters()" class="btn" style="background: #888">
+            Reset
+          </button>
+        </div>
+
+        <div id="projects-container"></div>
+      </div>
+
+      <!-- MFG -->
+      <div id="mfg" class="tab-content"></div>
+
+      <!-- QUOTING -->
+      <div id="quoting" class="tab-content"></div>
+    </div>
+    <script>
+      function filterCategory(selected) {
+        let sections = document.querySelectorAll("#mfg > div");
+
+        sections.forEach((sec) => {
+          if (sec.querySelector("h3")) {
+            let category = sec
+              .querySelector("h3")
+              .childNodes[0].nodeValue.trim();
+
+            if (!selected || category === selected) {
+              sec.style.display = "block";
+            } else {
+              sec.style.display = "none";
+            }
+          }
+        });
+      }
+      let originalProjects = [];
+
+      function showTab(id, el) {
+        document
+          .querySelectorAll(".tab-content")
+          .forEach((t) => t.classList.remove("active"));
+        document
+          .querySelectorAll(".tab")
+          .forEach((t) => t.classList.remove("active"));
+
+        document.getElementById(id).classList.add("active");
+        el.classList.add("active");
+
+        if (id === "projects") loadProjects();
+        if (id === "dashboard") loadDashboard();
+        if (id === "mfg") loadMFG();
+        if (id === "quoting") loadQuoting();
+      }
+
+      async function loadDashboard() {
+        try {
+          let res = await fetch("http://127.0.0.1:5000/dashboard");
+          let data = await res.json();
+
+          document.getElementById("dashboard").innerHTML = `
+      <div class="card">
+        <h3>Total Projects: ${data.total_projects ?? 0}</h3>
+        <h3>Match Score: ${data.match_score ?? 0}</h3>
+      </div>
+    `;
+        } catch (err) {
+          document.getElementById("dashboard").innerHTML =
+            "<div class='card'>Error loading dashboard</div>";
+        }
+      }
+
+      async function loadProjects() {
+        try {
+          let res = await fetch("http://127.0.0.1:5000/projects");
+          let data = await res.json();
+          originalProjects = data.projects;
+          renderProjects(originalProjects);
+
+          if (!data || !data.projects || data.projects.length === 0) {
+            document.getElementById("projects-container").innerHTML =
+              "<div class='card'>No project data available</div>";
+            return;
+          }
+
+          data.projects.forEach((project) => {
+            let partsHTML = "";
+
+            project.parts.forEach((part) => {
+              partsHTML += `
+                <div class="part-card">
+
+                  <!-- IMAGE -->
+                  <div style="
+                    width:100%;
+                    height:140px;
+                    background:linear-gradient(135deg,#f3f4f6,#e5e7eb);
+                    border-radius:8px;
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    color:#666;
+                    font-size:13px;
+                    margin-bottom:10px;
+                  ">
+                    PART IMAGE
+                  </div>
+
+                  <!-- PART TITLE -->
+                  <h4 style="margin-bottom:8px;">${part.part_name || "-"}</h4>
+
+                  <!-- PROCESS BLOCK -->
+                  <div style="
+                    background:#f9fafb;
+                    border:1px solid #e5e7eb;
+                    padding:8px;
+                    border-radius:6px;
+                    margin-bottom:8px;
+                  ">
+                    <div style="font-size:12px; color:#666;">Process</div>
+                    <div><b>Primary:</b> ${part.process_primary || "-"}</div>
+                    <div><b>Secondary:</b> ${part.process_secondary || "-"}</div>
+                  </div>
+
+                  <!-- MATERIAL BLOCK -->
+                  <div style="
+                    background:#f9fafb;
+                    border:1px solid #e5e7eb;
+                    padding:8px;
+                    border-radius:6px;
+                    margin-bottom:8px;
+                  ">
+                    <div style="font-size:12px; color:#666;">Material</div>
+                    <div>${part.material || "-"}</div>
+                  </div>
+
+                  <!-- META INFO -->
+                  <div style="font-size:13px; margin-bottom:6px;">
+                    <b>Industry:</b> ${part.industry || "-"}<br/>
+                    <b>Tolerance:</b> ${part.tolerance || "-"}
+                  </div>
+
+                  <!-- TAGS -->
+                  <div style="margin-top:6px;">
+                    <span style="background:#e6f4ea; padding:4px 8px; border-radius:6px;">
+                      ${part.outcome || "-"}
+                    </span>
+
+                    <span style="background:#fff3cd; padding:4px 8px; border-radius:6px; margin-left:5px;">
+                      ${part.complexity || "-"}
+                    </span>
+                  </div>
+
+                  <!-- INSIGHT BLOCK -->
+                  ${
+                    part.what_worked
+                      ? `
+                      <div style="
+                        margin-top:10px;
+                        background:#fff;
+                        border-left:4px solid #c47a2c;
+                        padding:8px;
+                        font-size:13px;
+                      ">
+                        <b>Insight:</b> ${part.what_worked}
+                      </div>
+                    `
+                      : `<div style="
+                            margin-top:10px;
+                            color:#999;
+                            font-size:13px;
+                        ">
+                            No insights recorded
+                        </div>`
+                  }
+
+                  </div>
+                `;
+            });
+
+            html += `
+        <div class="project-card">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <h2>${project.project_name}</h2>
+            <span style="background:#e0f2ff; padding:6px 10px; border-radius:6px;">
+              ${project.parts.length} Parts
+            </span>
+          </div>
+          <div style="margin-top:15px; font-weight:600;">
+            Parts
+          </div>
+          <div class="parts-section">
+            ${partsHTML}
+          </div>
+        </div>
+      `;
+          });
+
+          document.getElementById("projects-container").innerHTML = html;
+        } catch (err) {
+          document.getElementById("projects-container").innerHTML =
+            "<div class='card'>Error loading projects</div>";
+          console.error(err);
+        }
+      }
+      async function loadMFG() {
+        try {
+          let res = await fetch("http://127.0.0.1:5000/mfg-lessons");
+          let data = await res.json();
+
+          if (!data || !data.lessons || data.lessons.length === 0) {
+            document.getElementById("mfg").innerHTML =
+              "<div class='card'>No MFG insights available</div>";
+            return;
+          }
+
+          // 🔥 GROUP BY CATEGORY
+          let grouped = {};
+          let colorMap = {
+            Process: "#3182ce",
+            Material: "#38a169",
+            Thermal: "#e53e3e",
+            Fixing: "#805ad5",
+            Quality: "#d69e2e",
+          };
+
+          data.lessons.forEach((l) => {
+            if (!grouped[l.category]) grouped[l.category] = [];
+            grouped[l.category].push(l);
+          });
+
+          let html = `
+      <div class="card" style="background:#fff8f0; border-left:4px solid #c47a2c;">
+        Manufacturing lessons capture process, material, and inspection knowledge.
+        These insights help improve future quoting and production decisions.
+      </div>
+      <!-- 🔽 FILTER -->
+      <div style="margin:10px 0;">
+        <select onchange="filterCategory(this.value)" style="padding:6px; border-radius:6px;">
+          <option value="">All</option>
+          <option value="Process">Process</option>
+          <option value="Material">Material</option>
+          <option value="Thermal">Thermal</option>
+          <option value="Fixing">Fixing</option>
+          <option value="Quality">Quality</option>
+        </select>
+      </div>
+
+    `;
+
+          // 🔥 LOOP CATEGORIES
+          Object.keys(grouped).forEach((category) => {
+            let color = colorMap[category] || "#3182ce"; // ✅ get color
+            html += `
+        <div style="margin-top:20px;">
+          <h3 style="display:flex; justify-content:space-between;">
+            ${category}
+            <span style="color:#999; font-size:13px;">
+              ${grouped[category].length} lessons
+            </span>
+          </h3>
+      `;
+
+            grouped[category].forEach((l) => {
+              html += `
+          <div class="lesson" style="
+            display:flex;
+            justify-content:space-between;
+            align-items:flex-start;
+            border-left:4px solid ${color};
+          ">
+
+            <div>
+              <div style="font-size:13px; color:#666;">${l.project}</div>
+              <h4 style="margin:5px 0;">${l.title}</h4>
+              <p style="margin:0;">
+                ${typeof l.desc === "string" ? l.desc : JSON.stringify(l.desc)}
+              </p>
+            </div>
+
+            <span style="
+              background:#e6f4ea;
+              padding:4px 8px;
+              border-radius:6px;
+              font-size:12px;
+            ">
+              Insight
+            </span>
+
+          </div>
+        `;
+            });
+
+            html += `</div>`;
+          });
+
+          document.getElementById("mfg").innerHTML = html;
+        } catch (err) {
+          document.getElementById("mfg").innerHTML =
+            "<div class='card'>Error loading MFG insights</div>";
+          console.error(err);
+        }
+      }
+      async function loadQuoting() {
+        try {
+          let res = await fetch("http://127.0.0.1:5000/quoting-lessons");
+          let data = await res.json();
+
+          if (!data || !data.insights || data.insights.length === 0) {
+            document.getElementById("quoting").innerHTML =
+              "<div class='card'>No quoting insights available</div>";
+            return;
+          }
+
+          let html = "";
+
+          data.insights.forEach((i) => {
+            html += `
+        <div class="lesson" style="border-left:4px solid #c47a2c">
+          <div style="color:#888; font-size:12px;">${i.category}</div>
+          <h4 style="margin:5px 0;">
+            ${i.title || "Quote Insight"}
+          </h4>
+          <p>${i.desc}</p>
+          <div style="font-size:11px; color:#999;">
+            Project: ${i.project}
+          </div>
+        </div>
+      `;
+          });
+
+          document.getElementById("quoting").innerHTML = html;
+        } catch (err) {
+          document.getElementById("quoting").innerHTML =
+            "<div class='card'>Error loading quoting insights</div>";
+          console.error(err);
+        }
+      }
+      // 🔹 AUTO LOAD
+
+      loadDashboard();
+      function applyFilters() {
+        let industry = document.getElementById("industryFilter").value;
+        let process = document.getElementById("processFilter").value;
+
+        let filtered = originalProjects
+          .map((project) => {
+            let parts = project.parts.filter((p) => {
+              return (
+                (!industry || p.industry === industry) &&
+                (!process || p.process_primary === process)
+              );
+            });
+
+            return { ...project, parts };
+          })
+          .filter((p) => p.parts.length > 0);
+
+        renderFilteredProjects(filtered);
+      }
+
+      function resetFilters() {
+        document.getElementById("industryFilter").value = "";
+        document.getElementById("processFilter").value = "";
+        loadProjects(); // safest reset
+      }
+      function renderFilteredProjects(projects) {
+        let html = "";
+
+        projects.forEach((project) => {
+          let partsHTML = "";
+
+          project.parts.forEach((part) => {
+            partsHTML += `
+        <div class="part-card">
+
+          <div style="
+            width:100%;
+            height:140px;
+            background:linear-gradient(135deg,#f3f4f6,#e5e7eb);
+            border-radius:8px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            color:#666;
+            font-size:13px;
+            margin-bottom:10px;
+          ">
+            PART IMAGE
+          </div>
+
+          <h4 style="margin-bottom:8px;">${part.part_name || "-"}</h4>
+
+          <div style="background:#f9fafb; border:1px solid #e5e7eb; padding:8px; border-radius:6px; margin-bottom:8px;">
+            <div style="font-size:12px; color:#666;">Process</div>
+            <div><b>Primary:</b> ${part.process_primary || "-"}</div>
+            <div><b>Secondary:</b> ${part.process_secondary || "-"}</div>
+          </div>
+
+          <div style="background:#f9fafb; border:1px solid #e5e7eb; padding:8px; border-radius:6px; margin-bottom:8px;">
+            <div style="font-size:12px; color:#666;">Material</div>
+            <div>${part.material || "-"}</div>
+          </div>
+
+          <div style="font-size:13px;">
+            <b>Industry:</b> ${part.industry || "-"}<br/>
+            <b>Tolerance:</b> ${part.tolerance || "-"}
+          </div>
+
+          <div style="margin-top:6px;">
+            <span style="background:#d1fae5; color:#065f46; padding:4px 8px; border-radius:6px;">
+              ${part.outcome || "-"}
+            </span>
+            <span style="background:#fef3c7; color:#92400e; padding:4px 8px; border-radius:6px; margin-left:5px;">
+              ${part.complexity || "-"}
+            </span>
+          </div>
+
+          ${
+            part.what_worked
+              ? `<div style="margin-top:10px; border-left:4px solid #c47a2c; padding:8px;">
+                  <b>Insight:</b> ${part.what_worked}
+                </div>`
+              : ""
+          }
+
+        </div>
+      `;
+          });
+
+          html += `
+      <div class="project-card">
+
+        <!-- HEADER -->
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <div>
+            <h2 style="margin:0;">${project.project_name}</h2>
+            <div style="color:#777; font-size:13px;">
+              Supplier: ${project.supplier} | Created: ${project.created_time.split("T")[0]}
+            </div>
+          </div>
+
+          <div style="display:flex; gap:10px;">
+            <span style="background:#e0f2ff; padding:6px 10px; border-radius:6px;">
+              ${project.parts.length} Parts
+            </span>
+
+            <button class="btn" onclick="addPart('${project.project_name}')">
+              + Add Part
+            </button>
+          </div>
+        </div>
+
+        <!-- OVERVIEW -->
+        <div style="margin-top:15px; background:#f9fafb; padding:12px; border-radius:8px;">
+          <div style="font-size:13px; color:#666;">Project Overview</div>
+          <div>
+            ${
+              project.parts
+                .map((p) => p.what_worked)
+                .filter(Boolean)
+                .join(" ") || "No description available"
+            }
+          </div>
+        </div>
+
+        <div style="margin-top:15px; font-weight:600;">Parts</div>
+
+        <div class="parts-section">
+          ${partsHTML}
+        </div>
+
+      </div>
+    `;
+        });
+
+        document.getElementById("projects-container").innerHTML = html;
+      }
+      function addPart(projectName) {
+        let partName = prompt("Enter Part Name:");
+        if (!partName) return;
+
+        let newPart = {
+          part_name: partName,
+          process_primary: "New Process",
+          material: "New Material",
+          industry: "Custom",
+          tolerance: "Standard",
+          outcome: "Pending",
+          complexity: "New",
+          what_worked: "New part added manually",
+        };
+
+        // find project
+        let project = originalProjects.find(
+          (p) => p.project_name === projectName,
+        );
+
+        if (project) {
+          project.parts.push(newPart);
+        }
+
+        // re-render
+        loadProjects();
+      }
+    </script>
+  </body>
+</html>
